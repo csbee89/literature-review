@@ -149,20 +149,19 @@
 | 추출·검증 | 전원 (지표군 A/B/C/D로 분담) | 지표군별 1인 추출, 다른 1인 검증 |
 | 중재·질 평가·종합 | 연구책임자 | |
 
-## 12. 타겟 저널 후보 (확정 전)
+## 12. 타겟 저널 (JCR Q1 조건 반영 — 상세는 `04_target_journal_q1.md`)
 
-리뷰 논문은 저널을 먼저 정해야 분량·형식이 정해진다. 아래 후보에서 **하나를 확정**한 뒤 W1에 투고규정을 확인한다.
+| 순위 | 저널 | 근거 | 확인 필요 |
+|---|---|---|---|
+| 1 | **Journal of Planning Literature** | SSCI Q1(Urban Studies, Regional & Urban Planning). 리뷰 전문 저널(2023~26 게재분의 29%가 리뷰형 제목). 소속 분과와 일치 | 투고규정(분량·초록 형식), 도서관 JCR 원본 확인 |
+| 2 | Journal of Economic Surveys | SSCI Q1(Economics). 서베이 전문(게재분 50%). 이론 계보 중심 프레임 필요 | 분량 규정 |
+| 보조 | Journal of Housing Economics | 주제 적합성 최고(TOM·relisting 2025 게재). Q1 여부 카테고리 의존 | JCR 카테고리·사분위 |
 
-| 후보 | 근거 | 확인 필요 |
-|---|---|---|
-| **Journal of Real Estate Literature** (ARES, Taylor & Francis) | 학회 공식 설명에 "Review Articles: 과거 연구를 종합하고 향후 방향을 제안" 섹션이 명시됨. 부동산 분야에서 리뷰 논문의 1차 지면 | 분량 상한, 최근 2년 리뷰 게재 사례(scan_journal.py로 확인) |
-| International Journal of Housing Markets and Analysis (Emerald) | 신흥시장·아시아 사례 수용, 리뷰 게재 사례 있음(스캔에서 TOM 논문 다수 확인) | 리뷰 유형 수용 여부 |
-| 주택연구 / 부동산학연구 (국문) | 한국 지표 부재와 정책 함의가 중심이면 국내 독자가 맞음. 단 영문 리뷰와 **다른 RQ**로 분리해야 중복게재 문제가 없음 | 문헌연구 게재 사례 |
-
-권고: 영문 리뷰(JREL)를 주 산출물로 하고, 국문은 "한국 유동성 통계 현황 진단"으로 RQ를 달리해 별도 작성.
+Journal of Real Estate Literature(SSCI 미등재로 보임), Housing Studies(Q2), Real Estate Economics(Q2)는 Q1 조건을 충족하지 않아 리뷰 지면에서 제외한다. 국문 리뷰는 RQ를 달리해 별도 작성.
 
 ## 13. 변경 이력
 
 | 일자 | 변경 | 이유 |
 |---|---|---|
 | 2026-10-06 | v0.1 초안 | — |
+| 2026-10-06 | §12 타겟 저널을 JCR Q1 조건으로 재검토 (`04_target_journal_q1.md`) | 연구책임자 요청 |

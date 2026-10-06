@@ -5,7 +5,7 @@
 
 ## 작업 순서 (이 순서대로)
 
-1. `protocol/01_protocol.md` — 리뷰 질문·범위·적격기준·선별·추출·종합·일정·역할. **검색 시작 전에 확정하고 OSF에 등록.**
+1. `protocol/01_protocol.md` (타겟 저널 판단은 `protocol/04_target_journal_q1.md`) — 리뷰 질문·범위·적격기준·선별·추출·종합·일정·역할. **검색 시작 전에 확정하고 OSF에 등록.**
 2. `protocol/02_search_strings.md` — DB별 검색식. 실행마다 `templates/search_log.csv`에 기록.
 3. `seed/seed_list.md` — 앵커 문헌 60여 편(실존 검증 완료). 검색식 회수율 점검과 스노볼링 출발점.
 4. `templates/screening_log.csv` + `templates/exclusion_codes.md` — 2인 독립 선별 기록. `scripts/slr_tools.py kappa`로 일치도.
@@ -19,7 +19,7 @@
 | `protocol/` | 프로토콜, 검색식, 코드북 |
 | `templates/` | 검색 로그, 선별 로그, 제외 코드, 추출 양식, 학생용 1쪽 양식 |
 | `seed/` | 앵커 문헌 목록, 검증 리포트, 원 참고문헌 텍스트 |
-| `scans/` | 2026-10-06 Crossref 스코핑 스캔 3축 결과(약 600편, 중복 제거 시 510편) |
+| `scans/` | 2026-10-06 Crossref 스코핑 스캔 3축(약 600편) + `journals/` 후보 저널 8종 게재 지형 |
 | `students/` | 학생 정리 예시 5건 피드백, 후속 아이디어 로그 |
 | `scripts/` | `slr_tools.py` — dedupe / kappa / openalex 검색 로그 |
 
