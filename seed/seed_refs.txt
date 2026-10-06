@@ -1,0 +1,46 @@
+Lippman, S. A., & McCall, J. J. (1986). An operational measure of liquidity. American Economic Review, 76(1), 43-55.
+Haurin, D. (1988). The duration of marketing time of residential housing. AREUEA Journal, 16(4), 396-410.
+Kluger, B. D., & Miller, N. G. (1990). Measuring residential real estate liquidity. AREUEA Journal, 18(2), 145-159.
+Forgey, F. A., Rutherford, R. C., & Springer, T. M. (1996). Search and liquidity in single-family housing. Real Estate Economics, 24(3), 273-292.
+Genesove, D., & Mayer, C. J. (1997). Equity and time to sale in the real estate market. American Economic Review, 87(3), 255-269.
+Glower, M., Haurin, D. R., & Hendershott, P. H. (1998). Selling time and selling price: The influence of seller motivation. Real Estate Economics, 26(4), 719-740.
+Taylor, C. R. (1999). Time-on-the-market as a sign of quality. Review of Economic Studies, 66(3), 555-578.
+Anglin, P. M., Rutherford, R., & Springer, T. M. (2003). The trade-off between the selling price of residential properties and time-on-the-market: The impact of price setting. Journal of Real Estate Finance and Economics, 26(1), 95-111.
+Fisher, J., Gatzlaff, D., Geltner, D., & Haurin, D. (2003). Controlling for the impact of variable liquidity in commercial real estate price indices. Real Estate Economics, 31(2), 269-303.
+Merlo, A., & Ortalo-Magné, F. (2004). Bargaining over residential real estate: Evidence from England. Journal of Urban Economics, 56(2), 192-216.
+Goetzmann, W. N., & Peng, L. (2006). Estimating house price indexes in the presence of seller reservation prices. Review of Economics and Statistics, 88(1), 100-112.
+Lin, Z., & Vandell, K. D. (2007). Illiquidity and pricing biases in the real estate market. Real Estate Economics, 35(3), 291-330.
+Fisher, J., Geltner, D., & Pollakowski, H. (2007). A quarterly transactions-based index of institutional real estate investment performance and movements in supply and demand. Journal of Real Estate Finance and Economics, 34(1), 5-33.
+Johnson, K. H., Benefield, J. D., & Wiley, J. A. (2007). The probability of sale for residential real estate. Journal of Housing Research, 16(2), 131-142.
+Clayton, J., MacKinnon, G., & Peng, L. (2008). Time variation of liquidity in the private real estate market: An empirical investigation. Journal of Real Estate Research, 30(2), 125-160.
+Cheng, P., Lin, Z., & Liu, Y. (2008). A model of time-on-market and real estate price under sequential search with recall. Real Estate Economics, 36(4), 813-843.
+Levitt, S. D., & Syverson, C. (2008). Market distortions when agents are better informed: The value of information in real estate transactions. Review of Economics and Statistics, 90(4), 599-611.
+Novy-Marx, R. (2009). Hot and cold markets. Real Estate Economics, 37(1), 1-22.
+Hendel, I., Nevo, A., & Ortalo-Magné, F. (2009). The relative performance of real estate marketing platforms: MLS versus FSBOMadison.com. American Economic Review, 99(5), 1878-1898.
+Benefield, J. D., Cain, C. L., & Johnson, K. H. (2011). On the relationship between property price, time-on-market, and photo depictions in a multiple listing service. Journal of Real Estate Finance and Economics, 43(3), 401-422.
+Bokhari, S., & Geltner, D. (2011). Loss aversion and anchoring in commercial real estate pricing: Empirical evidence and price index implications. Real Estate Economics, 39(4), 635-670.
+Carrillo, P. E. (2012). An empirical stationary equilibrium search model of the housing market. International Economic Review, 53(1), 203-234.
+Genesove, D., & Han, L. (2012). Search and matching in the housing market. Journal of Urban Economics, 72(1), 31-45.
+de Wit, E. R., & van der Klaauw, B. (2013). Asymmetric information and list-price reductions in the housing market. Regional Science and Urban Economics, 43(3), 507-520.
+de Wit, E. R., Englund, P., & Francke, M. K. (2013). Price and transaction volume in the Dutch housing market. Regional Science and Urban Economics, 43(2), 220-241.
+Díaz, A., & Jerez, B. (2013). House prices, sales, and time on the market: A search-theoretic framework. International Economic Review, 54(3), 837-872.
+Carrillo, P. E. (2013). To sell or not to sell: Measuring the heat of the housing market. Real Estate Economics, 41(2), 310-346.
+Benefield, J. D., Cain, C. L., & Johnson, K. H. (2014). A review of literature utilizing simultaneous modeling techniques for property price and time on market. Journal of Real Estate Literature, 22(2), 149-175.
+Head, A., Lloyd-Ellis, H., & Sun, H. (2014). Search, liquidity, and the dynamics of house prices and construction. American Economic Review, 104(4), 1172-1210.
+Ngai, L. R., & Tenreyro, S. (2014). Hot and cold seasons in the housing market. American Economic Review, 104(12), 3991-4026.
+Benefield, J. D., & Hardin, W. G. (2015). Does time-on-market measurement matter? Journal of Real Estate Finance and Economics, 50(1), 52-73.
+Carrillo, P. E., de Wit, E. R., & Larson, W. (2015). Can tightness in the housing market help predict subsequent home price appreciation? Evidence from the United States and the Netherlands. Real Estate Economics, 43(3), 609-651.
+Han, L., & Strange, W. C. (2015). The microstructure of housing markets: Search, bargaining, and brokerage. Handbook of Regional and Urban Economics, 5, 813-886.
+Albrecht, J., Gautier, P. A., & Vroman, S. (2016). Directed search in the housing market. Review of Economic Dynamics, 19, 218-231.
+Anenberg, E. (2016). Information frictions and housing market dynamics. International Economic Review, 57(4), 1449-1479.
+Han, L., & Strange, W. C. (2016). What is the role of the asking price for a house? Journal of Urban Economics, 93, 115-130.
+Hedlund, A. (2016). Illiquidity and its discontents: Trading delays and foreclosures in the housing market. Journal of Monetary Economics, 83, 1-13.
+Anenberg, E., & Laufer, S. (2017). A more timely house price index. Review of Economics and Statistics, 99(4), 722-734.
+Guren, A. M. (2018). House price momentum and strategic complementarity. Journal of Political Economy, 126(3), 1172-1218.
+Anundsen, A. K., & Røed Larsen, E. (2018). Testing for micro-efficiency in the housing market. International Economic Review, 59(4), 2133-2162.
+Gabrovski, M., & Ortego-Marti, V. (2019). The cyclical behavior of the Beveridge curve in the housing market. Journal of Economic Theory, 181, 361-381.
+Hayunga, D. K., & Pace, R. K. (2019). The impact of TOM on prices in the US housing market. Journal of Real Estate Finance and Economics, 58(3), 335-365.
+Piazzesi, M., Schneider, M., & Stroebel, J. (2020). Segmented housing search. American Economic Review, 110(3), 720-759.
+Garriga, C., & Hedlund, A. (2020). Mortgage debt, consumption, and illiquid housing markets in the Great Recession. American Economic Review, 110(6), 1603-1634.
+van Dijk, D. W., Geltner, D. M., & van de Minne, A. M. (2022). The dynamics of liquidity in commercial property markets: Revisiting supply and demand indexes in real estate. Journal of Real Estate Finance and Economics, 64(3), 327-360.
+Anenberg, E., & Ringo, D. (2024). Volatility in home sales and prices: Supply or demand? Journal of Urban Economics, 139, 103610.

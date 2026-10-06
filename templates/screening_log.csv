@@ -1,0 +1,2 @@
+record_id,doi,title,year,source_db,stage,reviewer_1,decision_1,reviewer_2,decision_2,final_decision,exclusion_code,decision_note,date
+,,,,,title-abstract,,include/exclude/maybe,,include/exclude/maybe,,E1-E7,,

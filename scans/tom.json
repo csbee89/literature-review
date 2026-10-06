@@ -1,0 +1,2891 @@
+[
+  {
+    "title": "Price dispersion and time-on-market in the housing market",
+    "year": 2022,
+    "doi": "10.1016/j.jhe.2022.101875",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Danny Ben-Shahar",
+      "Roni Golan"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2022.101875",
+    "source": "crossref"
+  },
+  {
+    "title": "Time-Varying Housing Market Fluctuations: Evidence from the U.S. Housing Market",
+    "year": 2020,
+    "doi": "10.1515/remav-2020-0018",
+    "journal": "Real Estate Management and Valuation",
+    "authors": [
+      "Dicle Ozdemir"
+    ],
+    "cited_by": null,
+    "abstract": "Abstract The objective of this paper is to investigate how the housing market and credit market factors contribute to US business and interest rate cycles in a time-varying transition probability modeling framework. The Markov switching results appear to exhibit periods of low-growth regime and highgrowth regime for both house and credit markets. The study also shows that the transition probabilities reflecting the regime switching behavior of business and interest rate cycles vary over time as functions of the house and credit market. We find that both the housing market and credit market contribute to whether the economy remains in a high-growth regime or moves into lowgrowth regime, and whether the interest rates remain in a low or high-growth regime. The results show that the housing market plays a leading role in affecting the time-varying probabilities between regimes for the business and interest rate cycles.",
+    "concepts": [],
+    "url": "https://doi.org/10.1515/remav-2020-0018",
+    "source": "crossref"
+  },
+  {
+    "title": "Strategic underpricing and time-on-market: evidence from South Australia’s housing market",
+    "year": 2025,
+    "doi": "10.1108/ijhma-05-2025-0126",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Clayton Pilat",
+      "Chris Leishman"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose This study aims to examine how real estate agents in South Australia adapt pricing strategies to market conditions. Moving beyond behavioural explanations, it frames underpricing as a rational response to liquidity. Using a machine learning benchmark for fair value and a lagged time-on-market (TOM) indicator as a proxy for liquidity at listing, the analysis shows how strategies vary across hot and cold markets. The findings provide context-specific evidence that underpricing is most aggressive in liquid markets, highlighting its role as a market-driven practice with implications for housing economics, policy and regulation. Design/methodology/approach Using a data set of approximately 55,000 private treaty property transactions from 2018 to 2024, the study applies a machine learning-based price prediction model (Random Forest) to estimate expected market values. Listing strategies are categorised by quantiles of underpricing relative to predicted prices. A multinomial logistic regression model is used to assess how agent strategies correlate with lagged TOM, location and property attributes. Findings The results show that agents are significantly more likely to adopt aggressive underpricing strategies when market liquidity is high. As TOM increases, this indicates cooler market conditions where agents reduce the intensity of underpricing or adopt at-market pricing. Descriptive statistics also confirm a clear relationship between underpricing and shorter TOM. Research limitations/implications The analysis is limited to South Australian private treaty sales and may not generalise to other markets or auction contexts. While the predictive price model incorporates neighbourhood-level affordability via Socio-Economic Indexes for Areas Index of Relative Socio-Economic Advantage and Disadvantage, unobserved agent- and seller-specific characteristics (such as experience, expectations or urgency) remain outside the scope of the data. The lagged TOM indicator provides a robust proxy for liquidity but cannot fully capture real-time buyer sentiment or pandemic-era structural shocks. Finally, the categorisation of underpricing simplifies inherently continuous pricing decisions, and the results should be interpreted as relative rather than absolute effects. Practical implications The results provide actionable insights for regulators and practitioners in South Australia. They suggest that underpricing is most aggressive in hot markets and should not always be conflated with deceptive underquoting. This highlights the value of adaptive policy benchmarks and the need for agent training that balances strategic flexibility with transparency. Social implications The findings underline that pricing strategies directly shape affordability, buyer experiences and perceptions of fairness in the housing market. In highly liquid markets, aggressive underpricing can fuel competition and disadvantage marginal buyers, reinforcing inequality. Improving transparency and distinguishing between legitimate strategy and misleading practice can help protect consumer trust and market integrity. Originality/value This paper advances the housing economics literature by reframing underpricing as a rational, market-driven strategy rather than a behavioural anomaly. It contributes methodological novelty through the integration of a machine learning-based pricing benchmark and a lagged TOM indicator as a liquidity proxy, enabling a more precise characterisation of market conditions at the time of listing. By providing context-specific evidence from South Australia, the study extends international research and clarifies how agents adapt strategies dynamically in response to liquidity, offering both theoretical and policy-relevant insights.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-05-2025-0126",
+    "source": "crossref"
+  },
+  {
+    "title": "The Relationship between Housing Market Intervention for First-Time Buyers and House Price Volatility",
+    "year": 2014,
+    "doi": "10.1080/02673037.2014.927420",
+    "journal": "Housing Studies",
+    "authors": [
+      "Chyi Lin Lee",
+      "Richard G. Reed"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2014.927420",
+    "source": "crossref"
+  },
+  {
+    "title": "The Mortgage Market in the Time of COVID",
+    "year": 2021,
+    "doi": "10.1080/10511482.2020.1850017",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Laurie S. Goodman",
+      "Susan Wachter"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2020.1850017",
+    "source": "crossref"
+  },
+  {
+    "title": "Market Conditions, Marketing Time, and House Prices",
+    "year": 2014,
+    "doi": "10.1080/10835547.2013.12092086",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Olga Filippova",
+      "Michael Rehm"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2013.12092086",
+    "source": "crossref"
+  },
+  {
+    "title": "The Effect of Consumers' Expectations in a Booming Housing Market: Space-time Patterns in the Netherlands, 1999–2000",
+    "year": 2008,
+    "doi": "10.1080/02673030801893107",
+    "journal": "Housing Studies",
+    "authors": [
+      "JAN ROUWENDAL",
+      "SIMONETTA LONGHI"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030801893107",
+    "source": "crossref"
+  },
+  {
+    "title": "Do energy performance certificates influence time on market? An exploratory research of the residential housing market in Flanders",
+    "year": 2024,
+    "doi": "10.1108/ijhma-05-2024-0072",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Alesia Gerassimenko",
+      "Lieven De Moor",
+      "Laurens Defau"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose Literature has already analysed the relation between a property’s time on market (TOM) and other housing characteristics, but few to none include the property’s energy performance certificates (EPC) and none make a comparison between the selling and rental market. This paper aims to address these gaps by studying the relationship between TOM, price and EPC in both markets. Design/methodology/approach By introducing a combination of alternative tests, this study confirms a causal relation between TOM and price in the cross-sectional data. This allows this study to use a two-stage least square model and analyse 392,498 Flemish sale and rental properties transacted between 2019 and 2023. Findings The results indicate that both sale and rental properties with higher prices increase the TOM by 4–6 days, and this effect is even stronger in the selling market when the value-added tax is included. This study also finds that EPC labels have a complex relation with the time on market. A-labelled properties tend to increase the transaction time between 10 and 54 days, but B- and C-labelled properties decrease TOM between 20 and 30 days. In addition, the poorer performing labels (E and F) react differently across markets because of market-specific policies. Originality/value This paper provides novel insights by studying the relationship between TOM and EPC while also considering TOM’s endogenous relationship with the price. We control for these relationships in both the selling and rental market.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-05-2024-0072",
+    "source": "crossref"
+  },
+  {
+    "title": "Key determinants of time on the market: an analysis of residential housing market in Sri Lanka",
+    "year": 2020,
+    "doi": "10.1108/ijhma-06-2020-0071",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Nishani Champika Wickramaarachchi",
+      "Seetha Kusum Chandani",
+      "Malka Thilini"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose Developing residential units is crucial in the socio-economic development of a country. The investor faces not only uncertain transaction price (price risk), but also uncertainties about the marketing period risk. Predicting when the incurred money is being realized is difficult because of the imperfect nature of the real estate market. Thus, the purpose of this study is to analyze the variables that explain the time on the market (TOM) of housing units, identifying the relationships in-between and the effects on TOM of residential properties. Design/methodology/approach Following a multi-stage sampling process, a random sample of 120 housing units was selected. Data were collected using a self-administered questionnaire. The questionnaire contained 57 variables that can affect TOM. Semi-structured interviews were conducted to confirm some of the data and information on residential units from the developers. Direct observations were conducted to verify certain physical attributes and, finally, they were comprehensively analyzed using quantitative analysis techniques in SPSS 16.0 Statistical package. Findings Results confirmed that lesser advertising prices, attractive environment, proximity to the city center and proper shape of lands reduce the TOM. Similarly, higher prices, longer distance to the city center and irregular shape of land increase the TOM. The results strengthen the necessity of a comfortable environment appropriate to live, probably with greenery or water bodies, which is a key influential factor that reduces the TOM in Sri Lanka. Originality/value wIn the Sri Lankan context, there are few contributions to the real estate literature in this regard. Many scholars have concentrated on physical and economic characteristics, whereas this research adds the environmental factors. Therefore, this research makes a significant contribution to the body of knowledge in this area, as it puts more attention on including several variables, as well as newly introduced variables as determinants. Consumers can apply the research findings to assess the relative importance of housing attributes and services which they perceive most valuable, and then to make their purchase decisions. The findings also contribute to the investigations of the behavior of housing attributes and enable knowing as to what factors are to be promoted and what to be omitted to gain a shorter TOM.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-06-2020-0071",
+    "source": "crossref"
+  },
+  {
+    "title": "Time-varying spillovers between housing sentiment and housing market in the United States☆",
+    "year": 2021,
+    "doi": "10.1016/j.frl.2021.101925",
+    "journal": "Finance Research Letters",
+    "authors": [
+      "Christophe André",
+      "David Gabauer",
+      "Rangan Gupta"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.frl.2021.101925",
+    "source": "crossref"
+  },
+  {
+    "title": "Time on the market and price change: the case of Sydney housing market",
+    "year": 2014,
+    "doi": "10.1080/00036846.2014.972549",
+    "journal": "Applied Economics",
+    "authors": [
+      "Peyman Khezr"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/00036846.2014.972549",
+    "source": "crossref"
+  },
+  {
+    "title": "Labour and housing market precarity: What is the impact of time-related underemployment?",
+    "year": 2022,
+    "doi": "10.1080/19491247.2022.2089083",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Sharon Parkinson",
+      "Gavin A. Wood",
+      "Iain Campbell"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/19491247.2022.2089083",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing-market disequilibrium: an examination of housing-market price and stock dynamics 1967–1998",
+    "year": 2004,
+    "doi": "10.1016/j.jhe.2004.04.002",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Mary Riddel"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2004.04.002",
+    "source": "crossref"
+  },
+  {
+    "title": "Selling price, time on the market, and contractual contingencies",
+    "year": 2025,
+    "doi": "10.1016/j.jhe.2025.102062",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Zhenguo Lin",
+      "Michael J. Seiler",
+      "Ralph B. Siebert",
+      "Daniel T. Winkler"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2025.102062",
+    "source": "crossref"
+  },
+  {
+    "title": "A Housing Market with Cournot Competition and a Third Housing Sector",
+    "year": 2022,
+    "doi": "10.52950/es.2022.11.2.002",
+    "journal": "International Journal of Economic Sciences",
+    "authors": [
+      "Trond-Arne Borgersen"
+    ],
+    "cited_by": null,
+    "abstract": "This paper integrates a non-profit third-housing sector (THS) into a housing market with Cournot competition. The paper analyses the indirect effects of a THS on the aggregate housing market, on a commercial housing supplier and on the market adaption of households not embraced by the THS. While beneficial for households included in the THS, a question arises related to the indirect effects of a THS. The paper argues for crowding-out and higher house prices in the commercial housing market in response to a THS expansion. In addition, a THS also affects the strategic behaviour of the commercial housing supplier. Compared to a conventional Cournot housing market, a fixed THS housing supply changes the market structure from one where the housing supply of different housing providers are alternative to one-another, to a market structure where housing supply is complementary.",
+    "concepts": [],
+    "url": "https://doi.org/10.52950/es.2022.11.2.002",
+    "source": "crossref"
+  },
+  {
+    "title": "Market Fundamentals, Rational Expectation and Housing Price Changes: Evidence from Housing Market in Beijing",
+    "year": 2015,
+    "doi": "10.1080/14036096.2015.1043470",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Qiang Li",
+      "Satish Chand"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2015.1043470",
+    "source": "crossref"
+  },
+  {
+    "title": "Reasoning behind choices: rationality and social norms in the housing market behaviour of first-time buyers in the Czech Republic",
+    "year": 2016,
+    "doi": "10.1080/02673037.2016.1219331",
+    "journal": "Housing Studies",
+    "authors": [
+      "Martin Lux",
+      "Petr Gibas",
+      "Irena Boumová",
+      "Martin Hájek",
+      "Petr Sunega"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2016.1219331",
+    "source": "crossref"
+  },
+  {
+    "title": "A Meta-Analysis of Selling Price and Time-on-the-Market",
+    "year": 2010,
+    "doi": "10.1080/10835547.2010.12092027",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "G. Stacy Sirmans",
+      "Lynn MacDonald",
+      "David Macpherson"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2010.12092027",
+    "source": "crossref"
+  },
+  {
+    "title": "Fundamentals and Market Sentiment in Housing Market",
+    "year": 2016,
+    "doi": "10.1080/14036096.2016.1196240",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Ziyou Wang",
+      "Eddie Chi-man Hui"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2016.1196240",
+    "source": "crossref"
+  },
+  {
+    "title": "Architectural Review Boards and Their Impact on Property Price and Time-on-Market",
+    "year": 2009,
+    "doi": "10.1080/10835547.2009.12091999",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Ken Johnson",
+      "Justin Benefield",
+      "Jonathan Wiley"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2009.12091999",
+    "source": "crossref"
+  },
+  {
+    "title": "The Residential Housing Market in Iceland: Analysing the Effects of Mortgage Market Restructuring",
+    "year": 2009,
+    "doi": "10.1080/02673030801981696",
+    "journal": "Housing Studies",
+    "authors": [
+      "Lúdvík Elíasson",
+      "Thórarinn G. Pétursson"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030801981696",
+    "source": "crossref"
+  },
+  {
+    "title": "The Effect of New Market-Rate Housing Construction on the Low-Income Housing Market",
+    "year": 2019,
+    "doi": "10.2139/ssrn.3426103",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Evan Mast"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.3426103",
+    "source": "crossref"
+  },
+  {
+    "title": "Grants for First-time Homeowners in Norway – Distributional Effects under Different Market and Political Conditions",
+    "year": 2008,
+    "doi": "10.1080/14616710802449703",
+    "journal": "European Journal of Housing Policy",
+    "authors": [
+      "Mary Ann Stamsø"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14616710802449703",
+    "source": "crossref"
+  },
+  {
+    "title": "Has China’s Housing Security Policy Affected the Housing Market?—Analysis Based on Housing Market Data from 35 Monitored Cities",
+    "year": 2025,
+    "doi": "10.3390/buildings15111847",
+    "journal": "Buildings",
+    "authors": [
+      "Guangjun Deng",
+      "Weihan Zhou",
+      "Dingxing Wang"
+    ],
+    "cited_by": null,
+    "abstract": "This study investigates how China’s affordable housing policies have shaped the real estate market, using data from 35 major cities between 2010 and 2023. By analyzing housing prices, sales, and investment trends with advanced statistical methods, we found that increasing the supply of affordable housing significantly slows down rising home prices, especially in cities with high housing costs. During the COVID-19 pandemic, these policies also helped stabilize the market by boosting housing sales and reducing price volatility. Our research highlights regional differences: affordable housing works best in economically developed eastern cities to curb prices, while in less-developed central and western areas, it may temporarily increase prices due to land competition. We also show that affordable housing absorbs demand from low- and middle-income buyers, easing pressure on commercial housing markets over time. This study provides practical insights for policymakers to design targeted housing strategies, optimize land use, and enhance urban resilience during crises, like pandemics. By combining real-world data with robust analysis, we offer a clearer picture of how housing security policies can balance market stability and affordability in rapidly urbanizing economies.",
+    "concepts": [],
+    "url": "https://doi.org/10.3390/buildings15111847",
+    "source": "crossref"
+  },
+  {
+    "title": "Resource Opportunity in China’s Market Transition and Governance: Time Factor in Urban Housing Inequality",
+    "year": 2021,
+    "doi": "10.3390/land10121331",
+    "journal": "Land",
+    "authors": [
+      "Jiawen Zhou",
+      "Jing Xiong"
+    ],
+    "cited_by": null,
+    "abstract": "Since China’s reform and opening up, the country’s rapid marketization process has been accompanied by the rapid growth of inequality, which has been significant for all classes of society. In terms of its impact, housing inequality is particularly noticeable. In this paper, we discuss the influence of real-estate purchase time, organization, human capital, and political capital on the value of real estate and the appreciation of real estate in China by using a conditional mean model and a quantile regression model. The differences in the degree of influence of these factors on different quantile levels are also investigated. We found that, after adding the time factor, the prior possession of resources in the early stage of market transformation will benefit the long-term marketization process. Organizations that can penetrate “market-redistribution” and professions that directly participate in the distribution of real-estate resources also have significant advantages in this regard.",
+    "concepts": [],
+    "url": "https://doi.org/10.3390/land10121331",
+    "source": "crossref"
+  },
+  {
+    "title": "Time-varying volatility and the housing market",
+    "year": 2023,
+    "doi": "10.1017/s136510052300010x",
+    "journal": "Macroeconomic Dynamics",
+    "authors": [
+      "C. Richard Higgins",
+      "Ayse Sapci"
+    ],
+    "cited_by": null,
+    "abstract": "Abstract This paper studies the role of stochastic volatility in a setting where housing serves as an important propagation mechanism. After showing time-varying volatility in US house prices, we estimate a dynamic stochastic general equilibrium model with housing, financial frictions, and stochastic volatility using a nonlinear approximation and Bayesian econometric techniques. Incorporating stochastic volatility into the model greatly improves model fit and accounts for approximately half of the increased volatility in house prices observed during the Great Recession. Increased stochastic volatility escalates uncertainty which has significant effects on macroeconomic variables. While uncertainty in most sectors has negative effects on the economy, uncertainty on collateral constraints has the largest role. Unlike other uncertainty shocks, the housing demand uncertainty creates positive spillovers in the economy. Credit conditions, adjustment costs of capital and housing, and monetary policy are important transmission mechanisms for the stochastic volatility shocks.",
+    "concepts": [],
+    "url": "https://doi.org/10.1017/s136510052300010x",
+    "source": "crossref"
+  },
+  {
+    "title": "Selling Prices and Time on the Market of Houses Sold through Relocation Management Companies",
+    "year": 2021,
+    "doi": "10.1080/10527001.2021.2003504",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Bruce L. Gordon",
+      "Daniel T. Winkler"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10527001.2021.2003504",
+    "source": "crossref"
+  },
+  {
+    "title": "The Influence of Contingent Closing Costs on Sale Price, Time on Market, and Probability of Sale",
+    "year": 2009,
+    "doi": "10.1080/10835547.2009.12092008",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Justin Benefield",
+      "G. Stacy Sirmans"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2009.12092008",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market filtering in the Oslo region: pro-market housing policies in a Nordic welfare-state context",
+    "year": 2019,
+    "doi": "10.1080/19491247.2018.1540740",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Lena Magnusson Turner",
+      "Terje Wessel"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/19491247.2018.1540740",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market stability, mortgage market structure, and monetary policy: Evidence from the euro area",
+    "year": 2017,
+    "doi": "10.1016/j.jhe.2017.04.001",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Bing Zhu",
+      "Michael Betzinger",
+      "Steffen Sebastian"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2017.04.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Prices and the Optimal Time-on-The-Market Decision",
+    "year": 2011,
+    "doi": "10.2139/ssrn.1808018",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Hazer Inaltekin",
+      "Robert A. Jarrow",
+      "Mehmet Saglam",
+      "Yildiray Yildirim"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.1808018",
+    "source": "crossref"
+  },
+  {
+    "title": "Questioning the concept of market failure in housing: the case of Housing Market Renewal in Liverpool",
+    "year": 2015,
+    "doi": "10.1080/14616718.2015.1076629",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Chris Couch",
+      "Alex Lord",
+      "Matthew Cocks"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14616718.2015.1076629",
+    "source": "crossref"
+  },
+  {
+    "title": "Time-varying impacts of monetary policy uncertainty on China's housing market",
+    "year": 2023,
+    "doi": "10.1016/j.econmod.2022.106081",
+    "journal": "Economic Modelling",
+    "authors": [
+      "Yunzhi Lu",
+      "Jie Li",
+      "Haisheng Yang"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.econmod.2022.106081",
+    "source": "crossref"
+  },
+  {
+    "title": "Is this time the same? Housing market performance during SARS and COVID-19*",
+    "year": 2023,
+    "doi": "10.1108/ijhma-08-2022-0125",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Siru Lu",
+      "Chongyu Wang",
+      "Siu Kei Wong",
+      "Shuai Shi"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose This paper aims to examine the housing market responses to two outbreaks of respiratory diseases in Hong Kong during the Information Era – the 2003 SARS and COVID-19 outbreaks. Design/methodology/approach The authors first investigate the aggregate housing price changes during SARS and COVID-19. Next, the authors conduct a battery of univariate analyses pertaining to the relationship between district-level housing price movements and geographic and demographic patterns during the pandemic periods. Finally, to shed light on the housing price dynamics at the micro level, the authors conduct an estate-level analysis with the data of 234 residential estates from 2003 to 2020, focusing on the impacts of SARS and COVID-19 on the idiosyncratic volatility of residential estates. Findings Overall, SARS and COVID-19 outbreaks are negatively associated with housing prices. However, unlike SARS, the impact of COVID-19 on housing prices was moderate and transient. The geographic imbalances of the epidemic-induced underperformance are observed at the district and estate levels. Finally, the estate-level analysis presented in this paper indicates that the average idiosyncratic volatility of residential estates is 1.5% higher during the SARS period but 3.7% lower during the COVID-19 period. Lower volatility during COVID-19 is likely explained by household learning from the SARS period. Practical implications Regulators and investors could resort to efficient information disclosure to attenuate idiosyncratic volatility's adverse impact on housing market returns. Originality/value To the best of the authors’ knowledge, the authors are among the first to examine housing market responses to the 2003 SARS and COVID-19 outbreaks using the Hong Kong housing market as a laboratory.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-08-2022-0125",
+    "source": "crossref"
+  },
+  {
+    "title": "Capturing Low Demand Through Long Time-On-Market: Functional Obsolescence and Owner Resignation Among Old Rental Houses",
+    "year": 2024,
+    "doi": "10.1080/14036096.2024.2374764",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Masatomo Suzuki",
+      "Yuta Arai",
+      "Daisuke Yamato"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2024.2374764",
+    "source": "crossref"
+  },
+  {
+    "title": "Urban planning and the housing market",
+    "year": 2018,
+    "doi": "10.1080/02673037.2018.1461343",
+    "journal": "Housing Studies",
+    "authors": [
+      "Duncan Bowie"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2018.1461343",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Reform Agenda",
+    "year": 2014,
+    "doi": "10.13060/23362839.2014.1.1.25",
+    "journal": "Critical Housing Analysis",
+    "authors": [
+      "Hugo Priemus"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.13060/23362839.2014.1.1.25",
+    "source": "crossref"
+  },
+  {
+    "title": "Social Housing Policy in a Segmented Housing Market: Indirect Effects on Markets and on Individuals",
+    "year": 2019,
+    "doi": "10.20472/es.2019.8.2.001",
+    "journal": "International Journal of Economic Sciences",
+    "authors": [
+      "Trond Arne Borgersen"
+    ],
+    "cited_by": null,
+    "abstract": "This paper analyses indirect effects of social housing policy (SHP) in a segmented housing market. A two segment-housing ladder, where equity determines up trading, shows how SHP-measures targeting either housing supply or housing demand impact market developments and individual housing careers. When addressing market developments the paper considers house prices and housing supply. Analysing housing careers we highlights the ability of households indirectly exposed to SHP to trade up a housing ladder. The segmented housing market model contains both multipliers, along the lines of the Balanced Budget Multiplier of Haavelmo (1945), and non-neutral price effects across segments. These features allow some novel results when discussing indirect effects of SHP. Relating SHP to up-trading and a housing ladder where households simultaneously act as buyers and sellers, we first of all show the effect of SHP on the supply of used homes, an important part of housing supply. Second, this framework makes us able to position crowding-out across market segments. Both features are novel in the SHP-discussion. The paper also shows how SHP might create negative indirect effects on the up-trading ability of households that do not benefit from SHP measures.",
+    "concepts": [],
+    "url": "https://doi.org/10.20472/es.2019.8.2.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Modelling housing prices and market fundamentals: evidence from the Sydney housing market",
+    "year": 2019,
+    "doi": "10.1108/ijhma-10-2018-0082",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Md Abdullah Al-Masum",
+      "Chyi Lin Lee"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose Housing prices in Sydney have increased rapidly in the past three decades. This leads to a debate of whether Sydney housing prices have departed from macroeconomic fundamentals. However, little research has been devoted to this area. Therefore, this study aims to fill this gap by examining the long-run association between housing prices and market fundamentals. Further, it also examines the long-run determinants of housing prices in Greater Sydney. Design/methodology/approach The analysis of this study involves two stages. The first stage is to estimate the presence of long-run relationship between housing prices and market fundamentals with the Johansen and Juselius Cointegration test. Thereafter, the determinants of housing prices in Greater Sydney is assessed by using a vector error correction model. Findings The empirical results show that Sydney housing prices are cointegrated with market fundamentals in the long run. In addition, there is evidence to suggest that market fundamentals such as gross disposable income, housing supply, unemployment rate and gross domestic product are the key long-run determinants of Sydney housing prices, reflecting that Sydney housing prices, in general, can be explained by market fundamentals in the long run. Research limitations/implications The findings enable more informed and practical policy and investment decision-making regarding the relation between housing prices and market fundamentals. Originality/value This paper is the first study to offer empirical evidence of the degree to which the behaviour of housing prices can be explained by market fundamentals, from a capital city instead of at a national level, using a relatively disaggregated dataset of housing price series for Greater Sydney.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-10-2018-0082",
+    "source": "crossref"
+  },
+  {
+    "title": "Time-varying impact of uncertainty shocks on the US housing market",
+    "year": 2019,
+    "doi": "10.1016/j.econlet.2019.03.029",
+    "journal": "Economics Letters",
+    "authors": [
+      "Christina Christou",
+      "Rangan Gupta",
+      "Wendy Nyakabawo"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.econlet.2019.03.029",
+    "source": "crossref"
+  },
+  {
+    "title": "Consistent Monitoring of Cointegrating Relationships: The US Housing Market and the Subprime Crisis",
+    "year": 2017,
+    "doi": "10.1111/jtsa.12247",
+    "journal": "Journal of Time Series Analysis",
+    "authors": [
+      "Martin Wagner",
+      "Dominik Wied"
+    ],
+    "cited_by": null,
+    "abstract": "We propose a consistent monitoring procedure for structural change in a cointegrating relationship. The procedure is inspired by Chu et al. (1996) by being based on parameter estimation on a prebreak ‘calibration’ period. We use three modified least squares estimators to obtain nuisance parameter‐free limiting distributions. We study the asymptotic and finite sample properties of the procedures and finally apply the approach to monitor two‐fundamentals‐driven US housing prices cointegrating relationships over the period 1976:Q1–2010:Q4 using the data of Anundsen (2015). Depending on the relationship considered and the estimation method used, a break point is detected as early as 2003:Q2, that is, well before US housing prices started to fall in 2007.",
+    "concepts": [],
+    "url": "https://doi.org/10.1111/jtsa.12247",
+    "source": "crossref"
+  },
+  {
+    "title": "Conceptualising Social Housing within the Wider Housing Market: A Vacancy Chain Model",
+    "year": 2011,
+    "doi": "10.1080/02673037.2010.512786",
+    "journal": "Housing Studies",
+    "authors": [
+      "Ed Ferrari"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2010.512786",
+    "source": "crossref"
+  },
+  {
+    "title": "An Assessment of Tenure-Specific Housing Market Areas for Housing Planning",
+    "year": 2013,
+    "doi": "10.1080/02673037.2013.783201",
+    "journal": "Housing Studies",
+    "authors": [
+      "Colin Jones",
+      "Mike Coombes"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2013.783201",
+    "source": "crossref"
+  },
+  {
+    "title": "International housing market analysis based on housing commencements",
+    "year": 2014,
+    "doi": "10.1108/ijhma-12-2013-0059",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Richard G. Reed"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-12-2013-0059",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market in the Republic of Tatarstan: price analysis and forecasts",
+    "year": 2025,
+    "doi": "10.31659/0044-4472-2025-8-27-34",
+    "journal": "Housing Construction",
+    "authors": [
+      "E. Yu. Churilova"
+    ],
+    "cited_by": null,
+    "abstract": "For the period 2010-2024, prices per 1 sq. m. Housing prices in Tatarstan tended to increase. The ratio of per capita monthly incomes of the population and prices per 1 sq. m. Housing surveys have shown that housing affordability for the population in 2024 has decreased compared to 2010. Holt’s double exponential smoothing models, which take into account a linear trend, provide the best results for predicting prices in the primary market. Winters triple exponential smoothing models with linear trend and additive seasonality are suitable for forecasting prices in the secondary market. According to the forecasts obtained, while maintaining the trends of 2010-2024 in the primary housing market, average prices will increase by 1 sq.m. The number of standard apartments (of average quality) in relation to the end of 2024 may amount to 11.9% at the end of 2025, 22.6% at the end of 2026, 33.3% at the end of 2027; apartments of improved quality: 14.0% at the end of 2025, 27.7% at the end of 2026, 41.3% at the end of 2027. In the secondary market, an increase in average prices per 1 sq.m. The number of standard apartments is projected at 10.6% at the end of 2025, 22.2% at the end of 2026, 33.8% at the end of 2027.; apartments of improved quality: 6.2% at the end of 2025, 12.2% at the end of 2026, 18.1% at the end of 2027 compared to the end of 2024.",
+    "concepts": [],
+    "url": "https://doi.org/10.31659/0044-4472-2025-8-27-34",
+    "source": "crossref"
+  },
+  {
+    "title": "The Omission of House Age in MLS Database Listings: The Effect on Selling Price and Time on Market",
+    "year": 2020,
+    "doi": "10.1080/10527001.2020.1846355",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Bruce L. Gordon",
+      "Daniel T. Winkler"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10527001.2020.1846355",
+    "source": "crossref"
+  },
+  {
+    "title": "The Housing Market Dynamics of Two Budapest Neighbourhoods",
+    "year": 2009,
+    "doi": "10.1080/02673030903082328",
+    "journal": "Housing Studies",
+    "authors": [
+      "Tom Kauko"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030903082328",
+    "source": "crossref"
+  },
+  {
+    "title": "Modeling the Real-Time Transmission Effects of Economic Policies on Market Liquidity under a Time Series Analysis Framework",
+    "year": 2025,
+    "doi": "10.70517/ijhsa464692",
+    "journal": "International Journal for Housing Science and Its Applications",
+    "authors": [],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.70517/ijhsa464692",
+    "source": "crossref"
+  },
+  {
+    "title": "A Nested Housing Market Structure: Additional Evidence",
+    "year": 2009,
+    "doi": "10.1080/02673030902875029",
+    "journal": "Housing Studies",
+    "authors": [
+      "Alejandro García Pozo"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030902875029",
+    "source": "crossref"
+  },
+  {
+    "title": "The Housing Market and Housing Policies in Japan",
+    "year": 2016,
+    "doi": "10.2139/ssrn.2752868",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Masahiro Kobayashi"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.2752868",
+    "source": "crossref"
+  },
+  {
+    "title": "Knowing the Market? Understanding and Performing York's Housing",
+    "year": 2008,
+    "doi": "10.1080/02673030801893172",
+    "journal": "Housing Studies",
+    "authors": [
+      "ALISON WALLACE"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030801893172",
+    "source": "crossref"
+  },
+  {
+    "title": "International housing market analysis based on housing commencements",
+    "year": 2014,
+    "doi": "10.1108/ijhma-04-2014-0007",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Richard G. Reed"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-04-2014-0007",
+    "source": "crossref"
+  },
+  {
+    "title": "Regional housing wealth, relative housing wealth and labor market behavior",
+    "year": 2022,
+    "doi": "10.1016/j.jhe.2021.101811",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Xiandeng Jiang",
+      "Ningru Zhao",
+      "Zheng Pan"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2021.101811",
+    "source": "crossref"
+  },
+  {
+    "title": "Urban Housing in China: Market Transition, Housing Mobility and Neighbourhood Change",
+    "year": 2006,
+    "doi": "10.1080/02673030600807043",
+    "journal": "Housing Studies",
+    "authors": [
+      "Si-Ming Li",
+      "Youqin Huang"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030600807043",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing beyond land rent?: A critique of market housing solutionism",
+    "year": 2024,
+    "doi": "10.54825/gqau9087",
+    "journal": "Radical Housing Journal",
+    "authors": [
+      "Stefan Kipfer",
+      "Luisa Sotomayor"
+    ],
+    "cited_by": null,
+    "abstract": "Toronto is in a housing crisis. Many residents lack access to adequate and affordable housing. In response, neoliberals and reformers have radicalized their advocacy for more market housing as the only possible alternative. Drawing attention to the role housing plays in the reproduction of labour power and the crisis-ridden dynamic of capital accumulation, we highlight the inability of market housing to meet a range of social needs. We tackle crucial weaknesses of the housing supply argument, including, first, its quantitative orientation; second, its impatience with those who defend existing housing options; third, its historical amnesia; fourth; its pop-economist (mis-)understanding of housing markets; fifth, its superficial critique of zoning, and sixth, its illusory embrace of seemingly alternative ways of organizing housing spatially: mixed-use and inclusionary zoning. Reflecting on the recent municipal by-election in Toronto, we also consider what it would take to shift course towards decommodified and decolonial housing futures.",
+    "concepts": [],
+    "url": "https://doi.org/10.54825/gqau9087",
+    "source": "crossref"
+  },
+  {
+    "title": "The Effect of New Market-Rate Housing Construction on the Low-Income Housing Market",
+    "year": 2019,
+    "doi": "10.17848/1075-8445.26(3)-1",
+    "journal": "Employment Research",
+    "authors": [
+      "Evan Mast"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.17848/1075-8445.26(3)-1",
+    "source": "crossref"
+  },
+  {
+    "title": "Icelandic boom and bust: immigration and the housing market",
+    "year": 2016,
+    "doi": "10.1080/02673037.2016.1171826",
+    "journal": "Housing Studies",
+    "authors": [
+      "Lúðvík Elíasson"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2016.1171826",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Challenges in Europe and the United States",
+    "year": 2010,
+    "doi": "10.1080/02673037.2010.513835",
+    "journal": "Housing Studies",
+    "authors": [
+      "Marietta Haffner"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2010.513835",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market dualization: linking insider–outsider divides in employment and housing outcomes",
+    "year": 2019,
+    "doi": "10.1080/02673037.2019.1667960",
+    "journal": "Housing Studies",
+    "authors": [
+      "Rowan Arundel",
+      "Christian Lennartz"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2019.1667960",
+    "source": "crossref"
+  },
+  {
+    "title": "Seller and search behavior in the Belgian housing market",
+    "year": 2024,
+    "doi": "10.1016/j.jhe.2024.101997",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Joren Vandenbergh"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2024.101997",
+    "source": "crossref"
+  },
+  {
+    "title": "Land leverage and the housing market: Evidence from Germany",
+    "year": 2021,
+    "doi": "10.1016/j.jhe.2020.101746",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Florian Kajuth"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2020.101746",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Regulation and Labor Market Dynamism",
+    "year": 2018,
+    "doi": "10.2139/ssrn.3173449",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Christos Makridis"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.3173449",
+    "source": "crossref"
+  },
+  {
+    "title": "Building Sustainable Housing Markets: Lessons from a Decade of Changing Demand and Housing Market Renewal",
+    "year": 2011,
+    "doi": "10.1080/02673037.2011.530490",
+    "journal": "Housing Studies",
+    "authors": [
+      "Tony O'Sullivan"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2011.530490",
+    "source": "crossref"
+  },
+  {
+    "title": "The impact of mortgage rates on the housing market",
+    "year": 2025,
+    "doi": "10.1016/j.jhe.2025.102079",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Martin Časta"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2025.102079",
+    "source": "crossref"
+  },
+  {
+    "title": "Demand for rent-regulated apartments in the Swedish housing market",
+    "year": 2023,
+    "doi": "10.1080/02673037.2023.2244908",
+    "journal": "Housing Studies",
+    "authors": [
+      "Mats Wilhelmsson"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2023.2244908",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market shocks in italy: A GVAR approach",
+    "year": 2020,
+    "doi": "10.1016/j.jhe.2020.101707",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Andrea Cipollini",
+      "Fabio Parla"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2020.101707",
+    "source": "crossref"
+  },
+  {
+    "title": "The Effects of Investment Value and Market Specific Value on Housing Tenure Choice in Housing Market: Focusing on Apartment Market",
+    "year": 2016,
+    "doi": "10.15793/kspr.2016.91..002",
+    "journal": "The Korea Spatial Planning Review",
+    "authors": [
+      "PARK JONG HOON",
+      "Lee SeongWoo"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.15793/kspr.2016.91..002",
+    "source": "crossref"
+  },
+  {
+    "title": "Do As I Say and As I Do: Revisiting Price and Time-on-Market for Agent-Owned Properties",
+    "year": 2021,
+    "doi": "10.1080/10527001.2021.1985361",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Heather R. Bono",
+      "Justin D. Benefield",
+      "Marcus T. Allen"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10527001.2021.1985361",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Careers, House Price Dispersion and the Housing Market Multiplier",
+    "year": 2013,
+    "doi": "10.1080/14036096.2013.810170",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Trond-Arne Borgersen"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2013.810170",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Renewal and Social Class",
+    "year": 2010,
+    "doi": "10.1080/14036090903159986",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "David Clapham"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036090903159986",
+    "source": "crossref"
+  },
+  {
+    "title": "Energy price shock and housing market dynamics: Evidence from Germany",
+    "year": 2026,
+    "doi": "10.1016/j.jhe.2026.102119",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Pekka Sagner"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2026.102119",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing price spillovers after real estate agent fee reduction: evidence from the German housing market",
+    "year": 2025,
+    "doi": "10.1080/02673037.2025.2552400",
+    "journal": "Housing Studies",
+    "authors": [
+      "Pekka Sagner"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2025.2552400",
+    "source": "crossref"
+  },
+  {
+    "title": "Public housing policy in a housing market without general shortages",
+    "year": 2002,
+    "doi": "10.1080/14616710110091552",
+    "journal": "European Journal of Housing Policy",
+    "authors": [
+      "Hugo Priemus"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14616710110091552",
+    "source": "crossref"
+  },
+  {
+    "title": "Advancing understandings of housing supply constraints: housing market recovery and institutional transitions in British speculative housebuilding",
+    "year": 2019,
+    "doi": "10.1080/02673037.2019.1598549",
+    "journal": "Housing Studies",
+    "authors": [
+      "Sarah Payne"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2019.1598549",
+    "source": "crossref"
+  },
+  {
+    "title": "The state of the Hungarian residential market in the time of the global economic crisis",
+    "year": 2011,
+    "doi": "10.4000/belgeo.6289",
+    "journal": "Belgeo",
+    "authors": [
+      "Mihály Tömöri",
+      "István Süli-Zakar"
+    ],
+    "cited_by": null,
+    "abstract": "Housing in Hungary has undergone significant changes since the years of political and economic transition. During the socialist decades the housing sector was controlled by the state, market forces were marginal or non-existent. Thus, one of the biggest changes in housing was the establishment of a western-type residential market after the regime change. The latest worldwide economic crisis has had a dramatic impact on the Hungarian housing market. The turnover of the Hungarian residential market has declined enormously in the past few years. Those families who financed their housing by foreign currency mortgages are facing the hardest situation. The Hungarian forint has significantly weakened against other currencies having resulted in a dramatic increase in foreign currency mortgage payments. First, the paper briefly reviews the literature on housing theories, then it outlines the most important milestones in the development of the Hungarian residential market. The next part of the paper introduces the most problematic issues and areas concerning housing in Hungary, and finally analyzes the effects and consequences of the present economic crisis.",
+    "concepts": [],
+    "url": "https://doi.org/10.4000/belgeo.6289",
+    "source": "crossref"
+  },
+  {
+    "title": "Editorial: Housing Affordability and Market Stability",
+    "year": 2010,
+    "doi": "10.1080/02673037.2010.522051",
+    "journal": "Housing Studies",
+    "authors": [
+      "Ya Ping Wang",
+      "Lei Shao",
+      "Ray Forrest"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2010.522051",
+    "source": "crossref"
+  },
+  {
+    "title": "JUE Insight: The effect of new market-rate housing construction on the low-income housing market",
+    "year": 2023,
+    "doi": "10.1016/j.jue.2021.103383",
+    "journal": "Journal of Urban Economics",
+    "authors": [
+      "Evan Mast"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jue.2021.103383",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Uncertainty: Socio-economic Inequality and Forex Loans Trajectories in the Bosnian Housing Market",
+    "year": 2022,
+    "doi": "10.13060/23362839.2022.9.1.544",
+    "journal": "Critical Housing Analysis",
+    "authors": [
+      "Zaira Lofranco"
+    ],
+    "cited_by": null,
+    "abstract": "This article explores the nexus between the financialisation of housing and socio-economic inequality in Bosnia and Herzegovina (BiH). In this context, since the post-war economic reforms, driven by deindustrialisation, the precarisation of labour, and dependent financialisation, housing loans have become a ‘privilege’ for a restricted group of people with high and stable incomes. Instead, the housing aspirations of Bosnians are generally met with the aid of consumer loans and the ostensibly cheaper FX loans that were introduced in the mid-2000s. Drawing on quantitative and qualitative data, this paper highlights the enduring features of the polarised credit market in BiH. It particularly focuses on the period after the 2008 crisis when lending policies were only mildly re-regulated. FX loans never became the object of an ad hoc law to convert them to Bosnian convertible marks. This institutional approach has been unable to challenge the extreme class segmentation of housing finance and is still fostering indebtedness and precarious housing conditions among the lower-income segments of Bosnian society even after the pandemic.",
+    "concepts": [],
+    "url": "https://doi.org/10.13060/23362839.2022.9.1.544",
+    "source": "crossref"
+  },
+  {
+    "title": "Semi‐detached in the housing market",
+    "year": 2004,
+    "doi": "10.1108/14608790200400001",
+    "journal": "Housing, Care and Support",
+    "authors": [
+      "Maurice Harker"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/14608790200400001",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Failure in a Booming Economy",
+    "year": 2013,
+    "doi": "10.1080/02673037.2013.759177",
+    "journal": "Housing Studies",
+    "authors": [
+      "Fiona M. Haslam McKenzie",
+      "Steven Rowley"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2013.759177",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Cycles A Disequilibrium Model and Its Application to the Primary Housing Market in Warsaw",
+    "year": 2014,
+    "doi": "10.2139/ssrn.2841711",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Hanna Augustyniak",
+      "Jacek Laszek",
+      "Krzysztof Olszewski",
+      "Joanna Waszczuk"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.2841711",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing and the labor market: Time to move and aggregate unemployment",
+    "year": 2012,
+    "doi": "10.1016/j.jmoneco.2011.10.008",
+    "journal": "Journal of Monetary Economics",
+    "authors": [
+      "Peter Rupert",
+      "Etienne Wasmer"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jmoneco.2011.10.008",
+    "source": "crossref"
+  },
+  {
+    "title": "Liquidity in housing markets: the effect of news sentiment on time on market",
+    "year": 2026,
+    "doi": "10.1108/jerer-12-2025-0098",
+    "journal": "Journal of European Real Estate Research",
+    "authors": [
+      "Filip von Wehrt",
+      "Heidi Falkenbach"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose In this paper, we investigate whether news sentiment directly affects housing market liquidity using housing transactions data and newspaper articles on housing topics. Design/methodology/approach We develop a conceptual model for the relationship between news sentiment and liquidity and test it empirically. We examine both the long- and short-run relationship between news sentiment and time on market (TOM) for condominiums in the Finnish Helsinki Metropolitan Area housing market, using a combination of cross-sectional and time-series estimation techniques. Findings Using fully modified ordinary least squares (FMOLS) and an error correction model, we find that TOM significantly increases in the long run with positive news sentiment but decreases in the short run. The difference in effects stems from how market participant expectations and behavior interact with fundamental factors such as income and credit availability. Research limitations/implications Our study covers a limited horizon in which news tone is mostly positive. Results should be interpreted as responses to changes around a generally positive baseline rather than as a symmetric response to strongly negative or positive news. Originality/value To the best of the authors’ knowledge, this research is the first to study the impact of news sentiment on housing market liquidity, as well as the differences between its long- and short-run effects. Our novel results add to the extant literature on housing market sentiment and aggregate housing market liquidity determinants.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/jerer-12-2025-0098",
+    "source": "crossref"
+  },
+  {
+    "title": "TURKISH HOUSING LOAN MARKET AND SECONDARY MORTGAGE MARKET PERSPECTIVES",
+    "year": 2020,
+    "doi": "10.14783/maruoneri.679686",
+    "journal": "Öneri Dergisi",
+    "authors": [
+      "Meltem ULUSAN"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.14783/maruoneri.679686",
+    "source": "crossref"
+  },
+  {
+    "title": "The Impact of Housing Market Conditions on Residential Property Upkeep",
+    "year": 2012,
+    "doi": "10.1080/02673037.2013.729265",
+    "journal": "Housing Studies",
+    "authors": [
+      "Tammy C.M. Leonard"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2013.729265",
+    "source": "crossref"
+  },
+  {
+    "title": "Low-income Tenants in the Private Rental Housing Market",
+    "year": 2011,
+    "doi": "10.1080/02673037.2011.615155",
+    "journal": "Housing Studies",
+    "authors": [
+      "Peter A. Kemp"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2011.615155",
+    "source": "crossref"
+  },
+  {
+    "title": "The alternative financialization of the German housing market",
+    "year": 2017,
+    "doi": "10.1080/02673037.2017.1291917",
+    "journal": "Housing Studies",
+    "authors": [
+      "Gertjan Wijburg",
+      "Manuel B. Aalbers"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2017.1291917",
+    "source": "crossref"
+  },
+  {
+    "title": "Singapore's cooling measures and its housing market",
+    "year": 2019,
+    "doi": "10.1016/j.jhe.2018.04.001",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Yongheng Deng",
+      "Joseph Gyourko",
+      "Teng Li"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2018.04.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Interest-only-mortgages and housing market fluctuations in Denmark",
+    "year": 2019,
+    "doi": "10.1016/j.jhe.2019.03.004",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Peter Karpestam",
+      "Sebastian Johansson"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2019.03.004",
+    "source": "crossref"
+  },
+  {
+    "title": "Reference dependence in the UK housing market",
+    "year": 2021,
+    "doi": "10.1080/02673037.2021.1935767",
+    "journal": "Housing Studies",
+    "authors": [
+      "Helen X. H. Bao",
+      "Rufus Saunders"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2021.1935767",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing stories – Documenting a dysfunctional housing market",
+    "year": 2021,
+    "doi": "10.24834/urbanmatters.2021.09.5",
+    "journal": "Urban Matters",
+    "authors": [
+      "Carina Listerborn"
+    ],
+    "cited_by": null,
+    "abstract": "The purpose of the article is to use these stories, and the documentation of a dysfunctional housing market, as a starting point to discuss the role of storytelling in documenting social and economic urban struggles. The usages of stories told about a city are a delicate issue.",
+    "concepts": [],
+    "url": "https://doi.org/10.24834/urbanmatters.2021.09.5",
+    "source": "crossref"
+  },
+  {
+    "title": "Identifying housing market expectation transformation: an agent-based housing market testbed",
+    "year": 2019,
+    "doi": "10.1504/ijbcrm.2019.098803",
+    "journal": "International Journal of Business Continuity and Risk Management",
+    "authors": [
+      "Xu Ruhang",
+      "Liu Zhilin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1504/ijbcrm.2019.098803",
+    "source": "crossref"
+  },
+  {
+    "title": "Monetary Policy and the Housing Market: A Structural Factor Analysis",
+    "year": 2013,
+    "doi": "10.1002/jae.2318",
+    "journal": "Journal of Applied Econometrics",
+    "authors": [
+      "Matteo Luciani"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1002/jae.2318",
+    "source": "crossref"
+  },
+  {
+    "title": "Identifying housing market expectation transformation: an agent-based housing market testbed",
+    "year": 2019,
+    "doi": "10.1504/ijbcrm.2019.10018964",
+    "journal": "International Journal of Business Continuity and Risk Management",
+    "authors": [
+      "Xu Ruhang",
+      "Liu Zhilin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1504/ijbcrm.2019.10018964",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market dynamics with delays in the construction sector",
+    "year": 2014,
+    "doi": "10.1016/j.jhe.2014.09.005",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Berrak Bahadir",
+      "Olena Mykhaylova"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2014.09.005",
+    "source": "crossref"
+  },
+  {
+    "title": "Unexpected housing wealth appreciation and stock market participation",
+    "year": 2021,
+    "doi": "10.1016/j.jhe.2021.101768",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Dongmin Kong",
+      "Yawen Cheng",
+      "Shasha Liu"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2021.101768",
+    "source": "crossref"
+  },
+  {
+    "title": "Can we explain the Santa Clara county housing market?",
+    "year": 2002,
+    "doi": "10.1080/10511482.2002.9521446",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Richard K. Green"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2002.9521446",
+    "source": "crossref"
+  },
+  {
+    "title": "Ethnic discrimination in the Italian rental housing market",
+    "year": 2011,
+    "doi": "10.1016/j.jhe.2011.02.003",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Massimo Baldini",
+      "Marta Federici"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2011.02.003",
+    "source": "crossref"
+  },
+  {
+    "title": "What is the impact of macroprudential regulations on the Swedish housing market?",
+    "year": 2022,
+    "doi": "10.1016/j.jhe.2022.101840",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Mats Wilhelmsson"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2022.101840",
+    "source": "crossref"
+  },
+  {
+    "title": "A Study on the Optimal Market Value and Price Volatility in the Housing Market",
+    "year": 2021,
+    "doi": "10.6107/jkha.2021.32.2.009",
+    "journal": "Journal of the Korean Housing Association",
+    "authors": [
+      "Sang-Uk Kim"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.6107/jkha.2021.32.2.009",
+    "source": "crossref"
+  },
+  {
+    "title": "Spillover effects of financial uncertainty on the housing market: A mixed-frequency time series analysis approach*",
+    "year": 2024,
+    "doi": "10.38100/jhuf.2024.9.2.5",
+    "journal": "Journal of Housing and Urban Finance",
+    "authors": [
+      "Woo Suk Lee"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.38100/jhuf.2024.9.2.5",
+    "source": "crossref"
+  },
+  {
+    "title": "Does urban overheating affect neighborhood attractiveness? Evidence from the French housing market",
+    "year": 2026,
+    "doi": "10.1016/j.jhe.2025.102111",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Pierre Vincent"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2025.102111",
+    "source": "crossref"
+  },
+  {
+    "title": "Cross-regional connectedness in the Korean housing market",
+    "year": 2019,
+    "doi": "10.1016/j.jhe.2019.101654",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Hahn Shik Lee",
+      "Woo Suk Lee"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2019.101654",
+    "source": "crossref"
+  },
+  {
+    "title": "Idiosyncratic Volatility and the Housing Market",
+    "year": 2008,
+    "doi": "10.1080/10835547.2008.12091984",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Norm Miller",
+      "Gurupdesh Pandher"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2008.12091984",
+    "source": "crossref"
+  },
+  {
+    "title": "The Future of Housing Policy: Fungibility of Rental Housing Programs to Better Fit With Market Need",
+    "year": 2017,
+    "doi": "10.1080/10511482.2017.1298212",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Kirk McClure"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2017.1298212",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Policy and Housing Market in Serbia",
+    "year": 2015,
+    "doi": "10.22182/spt.1222015.6",
+    "journal": "Serbian Political Thought",
+    "authors": [
+      "Snežana Đorđević",
+      "Dora Petronijević"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.22182/spt.1222015.6",
+    "source": "crossref"
+  },
+  {
+    "title": "Conceptualizing the Rental Housing Market Structure in Ghana",
+    "year": 2020,
+    "doi": "10.1080/10511482.2020.1832131",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Emmanuel Kofi Gavu"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2020.1832131",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing financialization as a self-sustaining process. Political obstacles to the de-financialization of the Dutch housing market",
+    "year": 2022,
+    "doi": "10.1080/02673037.2022.2091117",
+    "journal": "Housing Studies",
+    "authors": [
+      "Bart Stellinga"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2022.2091117",
+    "source": "crossref"
+  },
+  {
+    "title": "The Intersection of Immigration and Housing Policies: Implications for the U.S. Housing Market and Economy",
+    "year": 2015,
+    "doi": "10.1080/10511482.2015.1043084",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Mai Thi Nguyen"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2015.1043084",
+    "source": "crossref"
+  },
+  {
+    "title": "Sellers' and Buyers' Reference Point Dynamics in the Housing Market",
+    "year": 2011,
+    "doi": "10.1080/02673037.2011.542095",
+    "journal": "Housing Studies",
+    "authors": [
+      "Corina Paraschiv",
+      "Regis Chenavaz"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2011.542095",
+    "source": "crossref"
+  },
+  {
+    "title": "Privatization in an Era of Economic Crisis: Using Market-Based Policies to Remedy Market Failures",
+    "year": 2017,
+    "doi": "10.1080/10511482.2016.1269356",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Amy T. Khare"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2016.1269356",
+    "source": "crossref"
+  },
+  {
+    "title": "Eviction Dynamics in Market-Rate Multifamily Rental Housing",
+    "year": 2020,
+    "doi": "10.1080/10511482.2020.1839936",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "David Robinson",
+      "Justin Steil"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2020.1839936",
+    "source": "crossref"
+  },
+  {
+    "title": "Self-organised housing in Australia: housing diversity in an age of market heat",
+    "year": 2016,
+    "doi": "10.1080/14616718.2016.1198083",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Louise Crabtree"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14616718.2016.1198083",
+    "source": "crossref"
+  },
+  {
+    "title": "Relisting, agent switching, and sale outcomes in the housing market",
+    "year": 2025,
+    "doi": "10.1016/j.jhe.2025.102086",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Darren K. Hayunga",
+      "William Swymer"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2025.102086",
+    "source": "crossref"
+  },
+  {
+    "title": "The Housing Careers of Polish and Somali Newcomers in Toronto's Rental Market",
+    "year": 2002,
+    "doi": "10.1080/02673030220134935",
+    "journal": "Housing Studies",
+    "authors": [
+      "Robert A. Murdie"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030220134935",
+    "source": "crossref"
+  },
+  {
+    "title": "Introduction to the special issue “China's urbanization and housing market”",
+    "year": 2016,
+    "doi": "10.1016/j.jhe.2016.07.001",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Siqi Zheng",
+      "Albert Saiz"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2016.07.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Family transactions in the Norwegian housing market",
+    "year": 2003,
+    "doi": "10.1080/14036090310017005",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Lars Gulbrandsen",
+      "Åsmund Langsether"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036090310017005",
+    "source": "crossref"
+  },
+  {
+    "title": "Predicting turning points in the housing market",
+    "year": 2009,
+    "doi": "10.1016/j.jhe.2009.09.001",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Roberto M. Croce",
+      "Donald R. Haurin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2009.09.001",
+    "source": "crossref"
+  },
+  {
+    "title": "War in Ukraine, the refugee crisis, and the Polish housing market",
+    "year": 2024,
+    "doi": "10.1080/02673037.2024.2334822",
+    "journal": "Housing Studies",
+    "authors": [
+      "Michal Gluszak",
+      "Radoslaw Trojanek"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2024.2334822",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market segmentation and hedonic prediction accuracy",
+    "year": 2003,
+    "doi": "10.1016/s1051-1377(03)00031-7",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Allen C. Goodman",
+      "Thomas G. Thibodeau"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/s1051-1377(03)00031-7",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market dynamics in China: Findings from an estimated DSGE model",
+    "year": 2015,
+    "doi": "10.1016/j.jhe.2015.05.003",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Eric C.Y. Ng"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2015.05.003",
+    "source": "crossref"
+  },
+  {
+    "title": "Redefining State and Market: Urban Housing Reform in China",
+    "year": 2001,
+    "doi": "10.1080/14036090118498",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Xing Quan Zhang"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036090118498",
+    "source": "crossref"
+  },
+  {
+    "title": "Evidence of the ripple effect across the Czech housing market",
+    "year": 2024,
+    "doi": "10.52950/es.2024.13.2.006",
+    "journal": "International Journal of Economic Sciences",
+    "authors": [
+      "Martin Slaný",
+      "Filip Emmer"
+    ],
+    "cited_by": null,
+    "abstract": "Czech regional housing markets have exhibited significant price co-movements over the last two decades. While part of this dynamic may be explained by traditional housing market fundamentals, some regions appear to be influenced by other variables. One possible explanation lies in the ripple effect, a phenomenon where house price shocks in one region influence prices in others. This study examines possible occurrence of the ripple effect using Toda-Yamamoto Granger causality. Results indicate statistically significant occurrence of lead-lag effect in eight out of 13 regions. Such price interconnectivity might be important factor for policymakers as study suggests that regional submarkets are not isolated and should be approached on macro level.",
+    "concepts": [],
+    "url": "https://doi.org/10.52950/es.2024.13.2.006",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Dynamics Under Stochastic Growth: An Application to the Housing Market in Boulder, Colorado",
+    "year": 2000,
+    "doi": "10.1111/0022-4146.00198",
+    "journal": "Journal of Regional Science",
+    "authors": [
+      "Mary Riddel"
+    ],
+    "cited_by": null,
+    "abstract": "Recent housing‐market studies have modeled slow stock and price adjustment with some success. However, the empirical procedures used in these models break down if housing stocks or prices are driven by stochastic growth. In this paper I suggest an error‐correction model for analyzing housing supply and demand under conditions of stochastic growth for a regional housing market. The model is applied to the housing market in Boulder, Colorado from 1981 through 1995&amp;mdash;a period of rapid growth in housing values in the area. Long‐run housing supply and demand are shown to be inelastic with respect to changes in the price of housing. The results indicate that developers respond more accurately to housing‐market disequilibrium attributable to supply‐side disturbances than to disturbances generated by changes in the demand for housing. On the other hand, price appreciation is driven primarily by demand disturbances.",
+    "concepts": [],
+    "url": "https://doi.org/10.1111/0022-4146.00198",
+    "source": "crossref"
+  },
+  {
+    "title": "HOUSING MARKET IN CRISIS PERIOD - THE EXAMPLE OF POZNAN",
+    "year": 2011,
+    "doi": "10.14254/2071-8330.2011/4-1/4",
+    "journal": "JOURNAL OF INTERNATIONAL STUDIES",
+    "authors": [
+      "Henryk Gawron"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.14254/2071-8330.2011/4-1/4",
+    "source": "crossref"
+  },
+  {
+    "title": "RICS Housing Market Survey",
+    "year": 2010,
+    "doi": "10.1108/ss.2010.11028bab.003",
+    "journal": "Structural Survey",
+    "authors": [],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ss.2010.11028bab.003",
+    "source": "crossref"
+  },
+  {
+    "title": "Fluctuations in the European Housing Market: Forecasting the House Price Index Change with Time-Series Models",
+    "year": 2026,
+    "doi": "10.2339/politeknik.1724043",
+    "journal": "Journal of Polytechnic",
+    "authors": [
+      "İsmet Soylemez",
+      "Mehmet Eren Nalici",
+      "Ramazan Ünlü"
+    ],
+    "cited_by": null,
+    "abstract": "This study presents a comparative analysis of a time series models for forecasting changes in the Housing Price Index (HPI) in 27 European countries. Accurate HPI forecasting is essential for the development of effective policies and investment strategies. The study uses quarterly data from Q4 2013 to Q3 2024. Methodologically, the stationarity of the data is tested using the Dickey–Fuller test and differencing is applied to non-stationary series. The ARIMA, Holt Linear Trend, Additive Damped Trend and Exponential Smoothing models are evaluated based on the lowest mean squared error (MSE) value for each country. The findings confirmed the heterogeneous structure of the European housing market, showing that no single model is suitable for all countries. The ARIMA model provided the most accurate results for nine countries, while the Holt Linear Trend and Additive Damped Trend models performed best in seven countries each. Forecasts for the period 2025–2026 are generated based on these results. This study highlights the importance of adopting country-specific and adaptable forecasting approaches to accommodate the varying dynamics of European housing markets.",
+    "concepts": [],
+    "url": "https://doi.org/10.2339/politeknik.1724043",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing prices and the optimal time-on-the-market decision",
+    "year": 2011,
+    "doi": "10.1016/j.frl.2011.06.001",
+    "journal": "Finance Research Letters",
+    "authors": [
+      "Hazer İnaltekin",
+      "Robert A. Jarrow",
+      "Mehmet Sağlam",
+      "Yıldıray Yıldırım"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.frl.2011.06.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Investor Subjectivities in Melbourne’s High Cost Housing Market",
+    "year": 2020,
+    "doi": "10.1080/14036096.2020.1813803",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Tamlin Gorter",
+      "K. Jacobs"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2020.1813803",
+    "source": "crossref"
+  },
+  {
+    "title": "Time On-market and Price Trade-offs in High-rise Housing Sub-markets",
+    "year": 2000,
+    "doi": "10.1080/713707223",
+    "journal": "Urban Studies",
+    "authors": [
+      "Seow Eng Ong",
+      "Yen Ching Koh"
+    ],
+    "cited_by": null,
+    "abstract": "This paper provides the first analytical study of the relationship between list price and time on-market (TOM) for high-rise public housing flats stratified by sub-markets in terms of geographical region and property type. In addition, the effects of macroeconomic variables pertinent to the price discovery process for property markets are analysed. By using data from single listings with one major agency firm to control for brokerage effects, the results obtained in this study are robust to incentive factors arising from firm size, number of listings, commission structure and incentive measures. The key results are that floor level affects the relationship between pricing and TOM, and variations in determinants of TOM exist across sub-markets. Moreover, TOM is influenced by price movements in both the public and private housing markets, as well as by individual agent effort.",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/713707223",
+    "source": "crossref"
+  },
+  {
+    "title": "The impact of loss aversion on seller behavior in the housing market",
+    "year": 2025,
+    "doi": "10.1016/j.jhe.2025.102048",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Changha Jin",
+      "Sungho Yun"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2025.102048",
+    "source": "crossref"
+  },
+  {
+    "title": "Reconnecting the Housing Market to the Labour Market: Foreign Ownership and Housing Affordability in Urban Canada",
+    "year": 2020,
+    "doi": "10.3138/cpp.2019-009",
+    "journal": "Canadian Public Policy",
+    "authors": [
+      "Joshua C. Gordon"
+    ],
+    "cited_by": null,
+    "abstract": "Toronto and Vancouver have been struggling with intense housing affordability problems in recent years. This article looks at one important factor in these affordability challenges: foreign ownership. Foreign ownership helps decouple the housing market from the labour market, pushing market prices for prized forms of housing beyond what local incomes can afford. The author investigates the role played by foreign ownership in the recent housing crises in Toronto and Vancouver before presenting a few possible policy approaches to address this dynamic. He concludes that some means of continuously taxing foreign ownership at a steep rate is needed in core urban regions of the country. Foreign buyer taxes and the Speculation and Vacancy Tax in British Columbia are evaluated in that context.",
+    "concepts": [],
+    "url": "https://doi.org/10.3138/cpp.2019-009",
+    "source": "crossref"
+  },
+  {
+    "title": "Consumer behavior and housing market dynamics: evidence from metropolitan housing markets",
+    "year": 2026,
+    "doi": "10.1108/ijhma-12-2025-0301",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Serkan Yıldız",
+      "Gülnaz Şengül Güneş"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose This study aims to identify the determinants of housing purchase intention by integrating consumer behavior theories with empirical evidence from the Turkish housing market. With a particular focus on Ankara and other major metropolitan cities, the research seeks to clarify how financial conditions, spatial comfort, design aesthetics, construction quality, location and environmental amenities shape consumers’ decisions to purchase a home. Design/methodology/approach A structured survey was administered to 463 participants, and the data set was analyzed using descriptive statistics, reliability tests, independent samples t-tests and analysis of variance to evaluate the relationships between demographic variables, current housing characteristics and purchase intention. Multiple regression analyses were conducted to assess the predictive power of financial, spatial, design, structural and locational factors on housing purchase intention. Findings The results indicate that although participants perceive financial conditions as the most important consideration, this factor does not have a statistically significant effect on housing purchase intention. Instead, design aesthetics, construction quality and location-related attributes emerge as significant predictors. Demographic variables show meaningful associations with purchase intention and price expectations. In addition, current housing characteristics such as tenure status, dwelling size, type and building age are linked to purchase preferences. These findings highlight the complex interplay between economic perceptions and behavioral factors in housing decision-making. Originality/value This study contributes to the housing and consumer behavior literature by empirically testing consumer theory within the context of the Turkish housing market, where behavioral factors may diverge from perceived economic priorities. The results provide actionable insights for policymakers, real estate developers and financial institutions regarding the multidimensional nature of housing purchase decisions.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-12-2025-0301",
+    "source": "crossref"
+  },
+  {
+    "title": "Post-foreclosure trajectories in the American housing market: focus on the trade-offs between neighbourhood and housing outcomes",
+    "year": 2025,
+    "doi": "10.1080/02673037.2025.2573032",
+    "journal": "Housing Studies",
+    "authors": [
+      "Seungbee Choi",
+      "Seungbeom Kang"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2025.2573032",
+    "source": "crossref"
+  },
+  {
+    "title": "Mortgage Market Deregulation and its Consequences",
+    "year": 2007,
+    "doi": "10.1080/02673030601132797",
+    "journal": "Housing Studies",
+    "authors": [
+      "Mark Stephens"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030601132797",
+    "source": "crossref"
+  },
+  {
+    "title": "Forecasting the dynamics of the Istanbul real estate market with the Bayesian time-varying VAR model regarding housing affordability",
+    "year": 2024,
+    "doi": "10.1016/j.habitatint.2024.103055",
+    "journal": "Habitat International",
+    "authors": [
+      "İsmail Canöz",
+      "Hakan Kalkavan"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.habitatint.2024.103055",
+    "source": "crossref"
+  },
+  {
+    "title": "Expectation Adjustment in the Housing Market: Insights from the Scottish Auction System",
+    "year": 2013,
+    "doi": "10.1080/02673037.2013.783200",
+    "journal": "Housing Studies",
+    "authors": [
+      "Sotirios Thanos",
+      "Michael White"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2013.783200",
+    "source": "crossref"
+  },
+  {
+    "title": "Changing Social Divisions in the Housing Market of Tallinn, Estonia",
+    "year": 2002,
+    "doi": "10.1080/140360902317417985",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Anneli Kährik"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/140360902317417985",
+    "source": "crossref"
+  },
+  {
+    "title": "Towards green gentrification? The interplay between residential change, the housing market, and park proximity",
+    "year": 2023,
+    "doi": "10.1080/02673037.2023.2176832",
+    "journal": "Housing Studies",
+    "authors": [
+      "Edyta Łaszkiewicz"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2023.2176832",
+    "source": "crossref"
+  },
+  {
+    "title": "Property relations between state and market: a history of housing cooperatives in Denmark",
+    "year": 2024,
+    "doi": "10.1080/02673037.2024.2376679",
+    "journal": "Housing Studies",
+    "authors": [
+      "Henrik Gutzon Larsen"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2024.2376679",
+    "source": "crossref"
+  },
+  {
+    "title": "North American Housing Market Returns Linkages: A Multi-Horizon Outlook",
+    "year": 2025,
+    "doi": "10.1080/10527001.2025.2515748",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Sofiane Aboura"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10527001.2025.2515748",
+    "source": "crossref"
+  },
+  {
+    "title": "Commodification and housing market cycles in Chinese cities",
+    "year": 2014,
+    "doi": "10.1080/14616718.2014.925255",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Fulong Wu"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14616718.2014.925255",
+    "source": "crossref"
+  },
+  {
+    "title": "Does homeownership hinder labor market activity? Evidence from housing privatization and restitution",
+    "year": 2023,
+    "doi": "10.1016/j.jhe.2023.101949",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Štěpán Mikula",
+      "Josef Montag"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2023.101949",
+    "source": "crossref"
+  },
+  {
+    "title": "Time-Varying and Spatial Herding Behavior in the US Housing Market: Evidence from Direct Housing Prices",
+    "year": 2016,
+    "doi": "10.1007/s11146-016-9552-5",
+    "journal": "The Journal of Real Estate Finance and Economics",
+    "authors": [
+      "Geoffrey M. Ngene",
+      "Daniel P. Sohn",
+      "M. Kabir Hassan"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1007/s11146-016-9552-5",
+    "source": "crossref"
+  },
+  {
+    "title": "Toward Affordable Cities? Critically Exploring the Market-Based Housing Supply Policy Proposition",
+    "year": 2021,
+    "doi": "10.1080/10511482.2021.1871932",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Steffen Wetzstein"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2021.1871932",
+    "source": "crossref"
+  },
+  {
+    "title": "A structural model for the housing and credit market in Italy",
+    "year": 2017,
+    "doi": "10.1016/j.jhe.2017.01.001",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Andrea Nobili",
+      "Francesco Zollino"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2017.01.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Rediscovering the ‘Gate’ Under Market Transition: From Work-unit Compounds to Commodity Housing Enclaves",
+    "year": 2005,
+    "doi": "10.1080/026730303042000331754",
+    "journal": "Housing Studies",
+    "authors": [
+      "Fulong Wu"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/026730303042000331754",
+    "source": "crossref"
+  },
+  {
+    "title": "Neoliberal social housing policies, market logics and social rented housing reforms in New Zealand",
+    "year": 2019,
+    "doi": "10.1080/19491247.2019.1638134",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Laurence Murphy"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/19491247.2019.1638134",
+    "source": "crossref"
+  },
+  {
+    "title": "Forecasting Washington State's Housing Market: A Comparative Analysis of Time Series Models and Economic Indicators",
+    "year": 2024,
+    "doi": "10.54878/zg7crb70",
+    "journal": "Emirati Journal of Business, Economics, &amp; Social Studies",
+    "authors": [
+      "HaoXuan Sun"
+    ],
+    "cited_by": null,
+    "abstract": "This study examines Washington State's housing market by analyzing the relationship between new private housing units authorized by building permits and various economic indicators. Initially, an Ordinary Least Squares regression model was employed, which indicated significant autocorrelation in the residuals, as identified by the Durbin-Watson statistic. To address the autocorrelation and non-stationarity detected through the Augmented Dickey-Fuller and Ljung-Box tests, we employed differencing followed by ARIMA and Holt-Winters Exponential Smoothing models. The Holt-Winters model, in particular, proved more effective, showing lower prediction errors and providing a more accurate forecast, thus emerging as the preferred method for forecasting in this market context.",
+    "concepts": [],
+    "url": "https://doi.org/10.54878/zg7crb70",
+    "source": "crossref"
+  },
+  {
+    "title": "The Swedish Housing Market from a Low Income Perspective",
+    "year": 2017,
+    "doi": "10.13060/23362839.2017.4.1.334",
+    "journal": "Critical Housing Analysis",
+    "authors": [
+      "Hans Lind"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.13060/23362839.2017.4.1.334",
+    "source": "crossref"
+  },
+  {
+    "title": "Second homes in the Spanish housing market: one market or two?",
+    "year": 2008,
+    "doi": "10.1007/s10901-008-9121-1",
+    "journal": "Journal of Housing and the Built Environment",
+    "authors": [
+      "Michael Barke"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1007/s10901-008-9121-1",
+    "source": "crossref"
+  },
+  {
+    "title": "Recent developments in the UK housing market",
+    "year": 2009,
+    "doi": "10.1057/elmr.2009.141",
+    "journal": "Economic &amp; Labour Market Review",
+    "authors": [
+      "Graeme Chamberlin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1057/elmr.2009.141",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Market Renewal in Liverpool: Locating the Gentrification Debate in History, Context and Evidence",
+    "year": 2010,
+    "doi": "10.1080/02673037.2010.483587",
+    "journal": "Housing Studies",
+    "authors": [
+      "Brendan Nevin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2010.483587",
+    "source": "crossref"
+  },
+  {
+    "title": "An Impact on the Apartment Market Analysis of Regional Housing Market Characteristics",
+    "year": 2018,
+    "doi": "10.52344/hfr.2018.2.0.41",
+    "journal": "Housing Finance Research",
+    "authors": [
+      "Jeong-Yeal Suh"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.52344/hfr.2018.2.0.41",
+    "source": "crossref"
+  },
+  {
+    "title": "Shrinking housing market, long-term vacancy, and withdrawal from housing market",
+    "year": 2020,
+    "doi": "10.1007/s41685-020-00159-3",
+    "journal": "Asia-Pacific Journal of Regional Science",
+    "authors": [
+      "Masatomo Suzuki",
+      "Yasushi Asami"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1007/s41685-020-00159-3",
+    "source": "crossref"
+  },
+  {
+    "title": "Conceptualising the Bounded Agency of Housing Researchers: The Case of Housing Market Renewal in England",
+    "year": 2012,
+    "doi": "10.1080/14616718.2012.709670",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "David Webb"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14616718.2012.709670",
+    "source": "crossref"
+  },
+  {
+    "title": "Detecting Multiple Bubbles in the Korean Housing Market and Housing Market Policy",
+    "year": 2019,
+    "doi": "10.46228/kje.26.2.6",
+    "journal": "The Korean Journal of Economics",
+    "authors": [
+      "Yongjae Lee",
+      "Cheolbeom Park"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.46228/kje.26.2.6",
+    "source": "crossref"
+  },
+  {
+    "title": "Interest Rates and Housing Market Dynamics in a Housing Search Model",
+    "year": 2017,
+    "doi": "10.2139/ssrn.3062113",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Elliot Anenberg",
+      "Edward Kung"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.3062113",
+    "source": "crossref"
+  },
+  {
+    "title": "Valuation Modeling within Thin Housing Markets Case Study: Arab Housing Market in Israel",
+    "year": 2020,
+    "doi": "10.1080/10527001.2020.1827616",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Larisa Fleishman",
+      "Yuri Gubman",
+      "Alla Koblyakova"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10527001.2020.1827616",
+    "source": "crossref"
+  },
+  {
+    "title": "Patterns of distributive justice: social housing and the search for market dynamism in Amsterdam",
+    "year": 2020,
+    "doi": "10.1080/02673037.2020.1739232",
+    "journal": "Housing Studies",
+    "authors": [
+      "Arend Jonkman"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2020.1739232",
+    "source": "crossref"
+  },
+  {
+    "title": "Neighbourhood, school zoning and the housing market: Evidence from New South Wales",
+    "year": 2021,
+    "doi": "10.1016/j.jhe.2021.101790",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Firmin Doko Tchatoka",
+      "Vanessa Varvaris"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2021.101790",
+    "source": "crossref"
+  },
+  {
+    "title": "The U.S. Housing Market and the Dynamic Pricing of Housing Duration",
+    "year": 2016,
+    "doi": "10.1080/10835547.2016.12092109",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Alan Tidwell",
+      "Andres Jauregui",
+      "Philip Seagraves",
+      "Paul Gallimore"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2016.12092109",
+    "source": "crossref"
+  },
+  {
+    "title": "Planning and the housing market: reflections on strategic housing market assessment in England",
+    "year": 2011,
+    "doi": "10.3828/tpr.2011.24",
+    "journal": "Town Planning Review",
+    "authors": [
+      "Ed Ferrari",
+      "Danielle Leahy Laughlin",
+      "Craig Watkins"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.3828/tpr.2011.24",
+    "source": "crossref"
+  },
+  {
+    "title": "Ethnic discrimination against landlords in the rental housing market",
+    "year": 2023,
+    "doi": "10.1080/19491247.2023.2232204",
+    "journal": "International Journal of Housing Policy",
+    "authors": [
+      "Shahar Sansani"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/19491247.2023.2232204",
+    "source": "crossref"
+  },
+  {
+    "title": "Asset Pricing and the Spanish Housing Market",
+    "year": 2007,
+    "doi": "10.1080/10835547.2007.12091981",
+    "journal": "Journal of Housing Research",
+    "authors": [
+      "Laura Garcia",
+      "Christor Giannikos",
+      "Hany Guirguis"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10835547.2007.12091981",
+    "source": "crossref"
+  },
+  {
+    "title": "From Low Demand to Rising Aspirations: Housing Market Renewal within Regional and Neighbourhood Regeneration Policy",
+    "year": 2006,
+    "doi": "10.1080/02673030500391015",
+    "journal": "Housing Studies",
+    "authors": [
+      "Stuart Cameron"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030500391015",
+    "source": "crossref"
+  },
+  {
+    "title": "The UK housing market and the monetary policy transmission mechanism: An SVAR approach",
+    "year": 2008,
+    "doi": "10.1016/j.jhe.2007.09.002",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Adam Elbourne"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2007.09.002",
+    "source": "crossref"
+  },
+  {
+    "title": "The effects of government interventions on housing market: A meta-study of empirical literature",
+    "year": 2026,
+    "doi": "10.1016/j.jhe.2026.102155",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Konstantin Arkadievich Kholodilin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2026.102155",
+    "source": "crossref"
+  },
+  {
+    "title": "Oil inflows and housing market fluctuations in an oil-exporting country: Evidence from Iran",
+    "year": 2015,
+    "doi": "10.1016/j.jhe.2015.10.002",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Nasser Khiabani"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2015.10.002",
+    "source": "crossref"
+  },
+  {
+    "title": "Public Housing Authorities in the Private Market",
+    "year": 2019,
+    "doi": "10.1080/10511482.2019.1582548",
+    "journal": "Housing Policy Debate",
+    "authors": [
+      "Rachel Garshick Kleit",
+      "Whitney Airgood-Obrycki",
+      "Anaid Yerena"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/10511482.2019.1582548",
+    "source": "crossref"
+  },
+  {
+    "title": "The Amsterdam housing market and the role of housing associations",
+    "year": 2005,
+    "doi": "10.1007/s10901-005-9004-7",
+    "journal": "Journal of Housing and the Built Environment",
+    "authors": [
+      "JEROEN VAN DER VEER",
+      "DICK SCHUILING"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1007/s10901-005-9004-7",
+    "source": "crossref"
+  },
+  {
+    "title": "Behavioural Approach in Housing Market Studies: Past, Present, Future",
+    "year": 2024,
+    "doi": "10.1080/14036096.2024.2341853",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Mateusz Tomal",
+      "Justyna Brzezicka"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2024.2341853",
+    "source": "crossref"
+  },
+  {
+    "title": "Heterogeneity of sellers in housing market: Difference in pricing strategies",
+    "year": 2017,
+    "doi": "10.1016/j.jhe.2017.03.002",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Evgeniy M. Ozhegov",
+      "Aleksandra S. Sidorovykh"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2017.03.002",
+    "source": "crossref"
+  },
+  {
+    "title": "Does housing market segmentation ensure families a rental price benefit? The example of Frankfurt, Germany",
+    "year": 2022,
+    "doi": "10.1080/02673037.2022.2074969",
+    "journal": "Housing Studies",
+    "authors": [
+      "Andreas Hartung"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2022.2074969",
+    "source": "crossref"
+  },
+  {
+    "title": "Naturalization and the transition to homeownership: an analysis of signalling in the Dutch housing market",
+    "year": 2019,
+    "doi": "10.1080/02673037.2019.1654601",
+    "journal": "Housing Studies",
+    "authors": [
+      "Floris Peters"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2019.1654601",
+    "source": "crossref"
+  },
+  {
+    "title": "The housing market and household balance sheets",
+    "year": 2009,
+    "doi": "10.1057/elmr.2009.157",
+    "journal": "Economic &amp; Labour Market Review",
+    "authors": [
+      "Graeme Chamberlin"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1057/elmr.2009.157",
+    "source": "crossref"
+  },
+  {
+    "title": "Long-run urban dynamics: understanding local housing market change in London",
+    "year": 2018,
+    "doi": "10.1080/02673037.2018.1491533",
+    "journal": "Housing Studies",
+    "authors": [
+      "Kenneth Gibb",
+      "Geoffrey Meen",
+      "Christian Nygaard"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2018.1491533",
+    "source": "crossref"
+  },
+  {
+    "title": "Forecasting market volatility and corporate strategic planning based on time series analysis in business administration",
+    "year": 2025,
+    "doi": "10.70517/ijhsa463610",
+    "journal": "International Journal for Housing Science and Its Applications",
+    "authors": [],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.70517/ijhsa463610",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market and labor market search",
+    "year": 2018,
+    "doi": "10.1515/bejm-2018-0049",
+    "journal": "The B.E. Journal of Macroeconomics",
+    "authors": [
+      "Christopher Limnios"
+    ],
+    "cited_by": null,
+    "abstract": "Abstract Current models fail to concurrently account for several important empirical regularities in the housing and labor markets. I augment the Diamond-Mortensen-Pissarides (DMP) search and matching model of the labor market with a housing market characterized by search and matching frictions, integrating both markets in a coherent macroeconomic model. The model provides a framework to explain how shocks and frictions which originate in the labor market spill over into the housing market and vise versa. The model accounts for procyclical, serially correlated real estate values, rental rates and expected real estate appreciation. Further, it accounts for increases in wages, housing costs and willingness to commute as a result of increases in geographic amenities. The model is also consistent with the empirical relationship between vacancy rates in the housing market and separation rates in the labor market. Simulations demonstrate that certain land-use policies can mitigate permanent shocks to labor productivity and the level of geographic amenities.",
+    "concepts": [],
+    "url": "https://doi.org/10.1515/bejm-2018-0049",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing need outcomes in England through changing times: demographic, market and policy drivers of change",
+    "year": 2015,
+    "doi": "10.1080/02673037.2015.1080817",
+    "journal": "Housing Studies",
+    "authors": [
+      "Glen Bramley"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673037.2015.1080817",
+    "source": "crossref"
+  },
+  {
+    "title": "Redefining State and Market: Urban Housing Reform in China",
+    "year": 2001,
+    "doi": "10.1080/140360901750424770",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Xing Quan Zhang"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/140360901750424770",
+    "source": "crossref"
+  },
+  {
+    "title": "Uncertainty, Expectations and Behavioural Aspects of Housing Market Choices",
+    "year": 2011,
+    "doi": "10.1080/14036096.2011.599182",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Alex Marsh",
+      "Kenneth Gibb"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2011.599182",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market forecasts via stock market indicators",
+    "year": 2023,
+    "doi": "10.1016/j.heliyon.2023.e16286",
+    "journal": "Heliyon",
+    "authors": [
+      "Varun Mittal",
+      "Laura P. Schaposnik"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.heliyon.2023.e16286",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing Affordability Index: Real Estate Market and Housing Situations",
+    "year": 2014,
+    "doi": "10.4028/www.scientific.net/aef.11.527",
+    "journal": "Advanced Engineering Forum",
+    "authors": [
+      "Leopoldo Sdino",
+      "Paola Castagnino"
+    ],
+    "cited_by": null,
+    "abstract": "One of the main problems in defining strategies for the real estate market (whether in terms of planning and, therefore, in public administration, or whether of a considerably more speculative nature, and therefore, in the private sector) lies in the operator’s less than perfect knowledge of the aspects of supply and demand, due to the real estate market’s characteristics. The prerequisite to starting or sustaining virtuous dynamics in territorial development is knowledge of the real estate market, an area that has now been widely studied, in terms of the potential for economic, social and territorial development. This paper proposes the application of a synthetic index, the Housing Affordability Index (HAI), which was developed in detail at the municipality level to identify areas where housing is inadequate. The territorial scope includes Northwest regions of Italy, Liguria and Lombardy. HAI describes what happened and must then be understood conducing multi-disciplinary examinations, intended to explain why it happened.",
+    "concepts": [],
+    "url": "https://doi.org/10.4028/www.scientific.net/aef.11.527",
+    "source": "crossref"
+  },
+  {
+    "title": "Redrawing of a Housing Market: Insurance Payouts and Housing Market Recovery in the Wake of the Christchurch Earthquake of 2011",
+    "year": 2020,
+    "doi": "10.2139/ssrn.3699240",
+    "journal": "SSRN Electronic Journal",
+    "authors": [
+      "Cuong Nguyen",
+      "Ilan Noy",
+      "Dag Einar Sommervoll",
+      "Fang Yao"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.2139/ssrn.3699240",
+    "source": "crossref"
+  },
+  {
+    "title": "Between ‘Market’ and ‘Welfare’: Rent Restructuring Policy in the Housing Association Sector, England",
+    "year": 2008,
+    "doi": "10.1080/02673030802253814",
+    "journal": "Housing Studies",
+    "authors": [
+      "Connie P. Y. Tang"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/02673030802253814",
+    "source": "crossref"
+  },
+  {
+    "title": "A brief analysis of the dilemma China’s housing market encountered- the formation process of the domestic housing market and what course to follow",
+    "year": 2023,
+    "doi": "10.61173/6dh8ha91",
+    "journal": "Finance &amp; Economics",
+    "authors": [
+      "Tian Lu"
+    ],
+    "cited_by": null,
+    "abstract": "This paper aims to discuss the dramatic impact of the pandemic on China’s housing industry and the underlying problems of the industry. Many seemingly strange circumstances happened in China, such as the continuously growing housing bubble and the housing prices that have not fallen in the recent decade. This paper uses the statistics collected by the authoritative data collection organization, the banks, and the housing agencies in Shanghai and the previous economics theory to briefly analyze China’s housing industry’s current situation and drawbacks and help explain the dilemmas as mentioned earlier. China’s housing market has its particularity, which makes it distinct from the markets in Western countries. This makes it hard to mechanically apply the old crisis theories to China’s market. Consequently, the actual situation, such as the government’s policy, must be taken into consideration- for example, in big cities, parking space prices rose even faster than housing prices. Different from ordinary economic analysis, the paper was written from the perspective of an ordinary citizen who had witnessed the growth of China’s housing market. For this reason, financial aspects and other aspects, such as the people’s livelihood and other industries, were considered. China’s housing bubble was gradually formed for many historical reasons, and its elimination will also take a long time. However, with our government and our people’s cooperation and coordination, it can be made sure that our market will be on the right track one day.",
+    "concepts": [],
+    "url": "https://doi.org/10.61173/6dh8ha91",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market  NAEA monthly survey",
+    "year": 2002,
+    "doi": "10.1108/pm.2002.11320eab.004",
+    "journal": "Property Management",
+    "authors": [],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/pm.2002.11320eab.004",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing affordability and Toronto's rental market: perspectives from the housing careers of Jamaican, Polish and Somali Newcomers",
+    "year": 2003,
+    "doi": "10.1080/14036090310018923",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Robert A. Murdie"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036090310018923",
+    "source": "crossref"
+  },
+  {
+    "title": "Optimal portfolio choices and the determination of housing rents under housing market uncertainty",
+    "year": 2018,
+    "doi": "10.1016/j.jhe.2018.06.003",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Gang-Zhi Fan",
+      "Ming Pu",
+      "Xiaoying Deng",
+      "Seow Eng Ong"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2018.06.003",
+    "source": "crossref"
+  },
+  {
+    "title": "Housing market  NAEA monthly survey",
+    "year": 2002,
+    "doi": "10.1108/pm.2002.11320aab.016",
+    "journal": "Property Management",
+    "authors": [],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/pm.2002.11320aab.016",
+    "source": "crossref"
+  },
+  {
+    "title": "RICS UK housing market survey",
+    "year": 2008,
+    "doi": "10.1108/ss.2008.11026bab.003",
+    "journal": "Structural Survey",
+    "authors": [],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ss.2008.11026bab.003",
+    "source": "crossref"
+  },
+  {
+    "title": "Can upzoning promote housing affordability? Perspectives from market actors",
+    "year": 2025,
+    "doi": "10.1080/08882746.2025.2541145",
+    "journal": "Housing and Society",
+    "authors": [
+      "Atticus Jaramillo",
+      "Mai Thi Nguyen",
+      "Ruby Brinkerhoff"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/08882746.2025.2541145",
+    "source": "crossref"
+  },
+  {
+    "title": "Large-Scale Housing Estates in Central and East European Cities: Between Residential Preferences and Local Housing Market Differences",
+    "year": 2011,
+    "doi": "10.1080/14036096.2011.592213",
+    "journal": "Housing, Theory and Society",
+    "authors": [
+      "Karin Wiest"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1080/14036096.2011.592213",
+    "source": "crossref"
+  },
+  {
+    "title": "Barriers to homeownership and housing quality: The impact of the international mortgage market",
+    "year": 2005,
+    "doi": "10.1016/j.jhe.2005.08.001",
+    "journal": "Journal of Housing Economics",
+    "authors": [
+      "Anthony B. Sanders"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.jhe.2005.08.001",
+    "source": "crossref"
+  },
+  {
+    "title": "Regionally heterogeneous housing cycles and housing market stabilization policies: Evidence from Korea",
+    "year": 2023,
+    "doi": "10.1016/j.econmod.2023.106192",
+    "journal": "Economic Modelling",
+    "authors": [
+      "Hyunduk Suh"
+    ],
+    "cited_by": null,
+    "abstract": "",
+    "concepts": [],
+    "url": "https://doi.org/10.1016/j.econmod.2023.106192",
+    "source": "crossref"
+  },
+  {
+    "title": "Marketing strategies in the Istanbul housing market",
+    "year": 2014,
+    "doi": "10.1108/ijhma-05-2013-0031",
+    "journal": "International Journal of Housing Markets and Analysis",
+    "authors": [
+      "Candan Çinar"
+    ],
+    "cited_by": null,
+    "abstract": "Purpose – The purpose of this study is to demonstrate whether the leading argument of construction firms, which have been active in the mass production of housing for the past 10 years in Istanbul, that in addition to the features of the house itself, the position of the house in the city, in other words its location, the new lifestyles the house offers and the social reinforcements the house provides are of great significance is valid or not. This was done by analyzing the contents of the advertising copies of houses present in the printed media. Design/methodology/approach – In this study, the printed advertising copies of the projects realized by the mass housing construction firms which have carried out at least six projects in Istanbul housing market, have been analyzed and assessed by “content analysis”, one of the qualitative research methods of social sciences. As it can be observed from the results of the analysis, the house, while being regarded as a product and marketed via its features, also has become a product presented to the consumer as a result of its position in the city, in other words its location, the new lifestyles it offers and the social reinforcements it provides. Findings – As this study has demonstrated, marketing strategies based on attracting the attention of the customer by making use of means of communication are also valid for housing in Istanbul housing market. Housing is marketed not only according to its features as a product but also according to the urban area where it is situated, new lifestyles and social reinforcements it presents. In this marketing process, the features of the housing itself; its size, construction technology, quality of the fine materials, earthquake resistance, etc. as well as the urban area where the housing is situated, the location of it, opportunities of infrastructure and superstructure of the housing become the foregrounded arguments in the advertising copies. Originality/value – This study is that, as a requirement of modern-day marketing, the consumption relation of the consumer to the house is not simply based on the features of the house, that modern-day marketing tries to capture the attention of the consumer via the position of the house in the city (location), which is the equivalent of the other symbolic values associated with the house, the lifestyles it presents and the social reinforcements it provides.",
+    "concepts": [],
+    "url": "https://doi.org/10.1108/ijhma-05-2013-0031",
+    "source": "crossref"
+  }
+]
