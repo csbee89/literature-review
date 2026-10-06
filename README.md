@@ -21,7 +21,9 @@
 | `templates/` | 검색 로그, 선별 로그, 제외 코드, 추출 양식, 학생용 1쪽 양식 |
 | `seed/` | 앵커 문헌 목록, 검증 리포트, JHE 게재 인용 후보 15편 |
 | `scans/` | 2026-10-06 Crossref 스코핑 스캔 3축(약 600편) + `journals/` 후보 저널 8종 게재 지형 |
-| `students/` | 학생 정리 예시 5건 피드백, 후속 아이디어 로그 |
+| `students/` | **작업 지시서(assignment_brief)**, 주간 보고 양식, AI 사용 기록, 정리 예시 피드백, 아이디어 로그 |
+| `reports/` | 주간 보고 (`W01_이름.md`) |
+| `extraction/` · `analysis/` | 문헌 1쪽 정리 / 데이터 분석 과제 (섞지 않는다) |
 | `scripts/` | `slr_tools.py` — dedupe / kappa / openalex 검색 로그 |
 
 ## 도구

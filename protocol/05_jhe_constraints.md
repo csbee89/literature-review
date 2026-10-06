@@ -8,7 +8,7 @@
 |---|---|
 | 발행 | Elsevier, 분기 간행, ISSN 1051-1377, 1991 창간 |
 | Aims & scope | "economic research related to housing … careful analytical technique on important housing-related questions." 연구영역: Housing markets / Public policy / Real estate / Finance / International studies / Spatial models / Demographics and mobility / Law and regulation |
-| JCR | Q1 (연구책임자 확인). 카테고리별 사분위는 도서관 JCR 기준으로 원고 상단에 기록 |
+| JCR | **Q1, Economics 카테고리** (연구책임자 확인 2026-10-06). Urban Studies는 Q2 |
 | 심사 | **단일 익명(single anonymized)** — 심사자는 저자를 안다. 저자 추정 표현 제거 불필요. 편집자 초심 후 최소 2인 심사 |
 | 데스크 리젝 조건 | Aims & scope 불일치 또는 Guide 서식 미준수 시 **심사 없이 거절** (투고비 환불 없음) |
 | 투고비 | **USD 100** (학생 USD 25, 할인코드 사전 요청). Article Transfer 시 면제 |

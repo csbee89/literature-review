@@ -1,6 +1,6 @@
 <!--
 ================== 저널 제약 요약 (집필 내내 참조) — 상세 protocol/05_jhe_constraints.md ==================
-타겟 저널:      Journal of Housing Economics (Elsevier, ISSN 1051-1377, JCR Q1 — 카테고리 [도서관 JCR로 기재])
+타겟 저널:      Journal of Housing Economics (Elsevier, ISSN 1051-1377, JCR Q1 Economics (연구책임자 확인 2026-10-06))
 분량:           명시 상한 없음 [확인 필요: Kholodilin 2024 분량 기준]
 초록:           250단어 이내, 참고문헌 없이        키워드: 1~7개 (복합어 회피)
 Highlights:     필수, 3~5개, 각 85자 이내, 별도 파일   Graphical abstract: 권장 (개념 틀 그림)
