@@ -149,15 +149,10 @@
 | 추출·검증 | 전원 (지표군 A/B/C/D로 분담) | 지표군별 1인 추출, 다른 1인 검증 |
 | 중재·질 평가·종합 | 연구책임자 | |
 
-## 12. 타겟 저널 (JCR Q1 조건, v2 — 상세·근거는 `04_target_journal_q1.md`)
+## 12. 타겟 저널 — **확정: Journal of Housing Economics** (2026-10-06)
 
-| 순위 | 저널 | 근거 | 확인 필요 |
-|---|---|---|---|
-| 1 | **Journal of Housing Economics** | Q1(Economics). 2023~26 유동성·TOM·재등록·탐색지수 논문 6편 게재. 체계적 리뷰 선례 2편(Kholodilin 2024, 2026). 후보 20종 중 세 조건을 모두 충족하는 유일한 저널 | 도서관 JCR 원본, 투고규정의 리뷰 유형·분량 |
-| 예비 | Habitat International | Q1 최상위(97%). 유동성 논문 1편(2025), scientometric review 수용 | 주택시장 비중 2% |
-| 보류 | Regional Science and Urban Economics | Q1(Urban Studies). van Dijk 2024 지면. 리뷰 거의 없음 → 2차년도 지표 비교 실증 지면 | |
-
-Journal of Planning Literature는 유동성 논문 0편으로 철회. Journal of Economic Surveys는 2차 후보. Real Estate Economics·JREFE·Housing Studies·IJHMA는 Q1 미충족.
+JCR Q1 확인(연구책임자). 제약 요약표는 `05_jhe_constraints.md`, 후보 비교 근거는 `04_target_journal_q1.md`, JHE 자체 인용 후보 15편은 `../seed/jhe_in_journal_citations.md`, 원고 뼈대는 `../manuscript/review-skeleton.md`.
+핵심 제약: 초록 250단어 / 키워드 1~7 / Highlights 3~5개(85자) 필수 / 번호형 참고문헌(게재 시) / 단일 익명 심사 / 투고비 USD 100 / CRediT·AI 사용 선언·데이터 기탁(Option C) 필수 / Aims&scope 불일치 시 데스크 리젝.
 
 ## 13. 변경 이력
 
@@ -166,3 +161,4 @@ Journal of Planning Literature는 유동성 논문 0편으로 철회. Journal of
 | 2026-10-06 | v0.1 초안 | — |
 | 2026-10-06 | §12 타겟 저널을 JCR Q1 조건으로 재검토 (`04_target_journal_q1.md`) | 연구책임자 요청 |
 | 2026-10-06 | §12 v2: 후보 20종 재집계, JPL 철회, JHE 1순위 | 연구책임자 지적(JPL 주제 부적합) |
+| 2026-10-06 | 타겟 저널 JHE 확정. 제약표(05)·원고 뼈대·JHE 인용 후보 추가 | Guide for Authors 확인 |
