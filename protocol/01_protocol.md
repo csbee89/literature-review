@@ -149,15 +149,15 @@
 | 추출·검증 | 전원 (지표군 A/B/C/D로 분담) | 지표군별 1인 추출, 다른 1인 검증 |
 | 중재·질 평가·종합 | 연구책임자 | |
 
-## 12. 타겟 저널 (JCR Q1 조건 반영 — 상세는 `04_target_journal_q1.md`)
+## 12. 타겟 저널 (JCR Q1 조건, v2 — 상세·근거는 `04_target_journal_q1.md`)
 
 | 순위 | 저널 | 근거 | 확인 필요 |
 |---|---|---|---|
-| 1 | **Journal of Planning Literature** | SSCI Q1(Urban Studies, Regional & Urban Planning). 리뷰 전문 저널(2023~26 게재분의 29%가 리뷰형 제목). 소속 분과와 일치 | 투고규정(분량·초록 형식), 도서관 JCR 원본 확인 |
-| 2 | Journal of Economic Surveys | SSCI Q1(Economics). 서베이 전문(게재분 50%). 이론 계보 중심 프레임 필요 | 분량 규정 |
-| 보조 | Journal of Housing Economics | 주제 적합성 최고(TOM·relisting 2025 게재). Q1 여부 카테고리 의존 | JCR 카테고리·사분위 |
+| 1 | **Journal of Housing Economics** | Q1(Economics). 2023~26 유동성·TOM·재등록·탐색지수 논문 6편 게재. 체계적 리뷰 선례 2편(Kholodilin 2024, 2026). 후보 20종 중 세 조건을 모두 충족하는 유일한 저널 | 도서관 JCR 원본, 투고규정의 리뷰 유형·분량 |
+| 예비 | Habitat International | Q1 최상위(97%). 유동성 논문 1편(2025), scientometric review 수용 | 주택시장 비중 2% |
+| 보류 | Regional Science and Urban Economics | Q1(Urban Studies). van Dijk 2024 지면. 리뷰 거의 없음 → 2차년도 지표 비교 실증 지면 | |
 
-Journal of Real Estate Literature(SSCI 미등재로 보임), Housing Studies(Q2), Real Estate Economics(Q2)는 Q1 조건을 충족하지 않아 리뷰 지면에서 제외한다. 국문 리뷰는 RQ를 달리해 별도 작성.
+Journal of Planning Literature는 유동성 논문 0편으로 철회. Journal of Economic Surveys는 2차 후보. Real Estate Economics·JREFE·Housing Studies·IJHMA는 Q1 미충족.
 
 ## 13. 변경 이력
 
@@ -165,3 +165,4 @@ Journal of Real Estate Literature(SSCI 미등재로 보임), Housing Studies(Q2)
 |---|---|---|
 | 2026-10-06 | v0.1 초안 | — |
 | 2026-10-06 | §12 타겟 저널을 JCR Q1 조건으로 재검토 (`04_target_journal_q1.md`) | 연구책임자 요청 |
+| 2026-10-06 | §12 v2: 후보 20종 재집계, JPL 철회, JHE 1순위 | 연구책임자 지적(JPL 주제 부적합) |
