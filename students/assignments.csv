@@ -1,7 +1,7 @@
 week,assign_date,due_date,person,first_author,year,title,journal,doi,why_this_paper,checker,status
 W1,2026-10-12,2026-10-16,박사,Carrillo,2013,To sell or not to sell: Measuring the heat of the housing market,Real Estate Economics,10.1111/reec.12003,C층 heat index. 구조모형 — 박사용,석사①,assigned
 W1,2026-10-12,2026-10-16,석사①,van Dijk,2024,Local constant-quality housing market liquidity indices,RSUE,10.1016/j.regsciurbeco.2024.103997,C층 유동성 지수. 계획서 핵심 인용,박사,assigned
-W1,2026-10-12,2026-10-16,석사②,Genesove,1997,Equity and time to sale in the real estate market,AER,10.3386/w4861,A층 고전. 자기자본과 매각시간,학부①,assigned
+W1,2026-10-12,2026-10-16,석사②,Genesove,1997,Equity and time to sale in the real estate market,AER,10.3386/w4861,A층 고전. 자기자본과 매각시간 (이 DOI는 NBER 워킹페이퍼. AER 87(3) 게재본 서지로 적을 것),학부①,assigned
 W1,2026-10-12,2026-10-16,학부①,Haurin,1988,The duration of marketing time of residential housing,AREUEA J. (now REE),10.1111/1540-6229.00463,A층 출발점. 비전형성과 TOM,석사②,assigned
 W1,2026-10-12,2026-10-16,학부②,Kluger,1990,Measuring residential real estate liquidity,AREUEA J. (now REE),10.1111/1540-6229.00514,유동성 '측정' 최초 논문,학부③,assigned
 W1,2026-10-12,2026-10-16,학부③,Knight,2002,"Listing price, time on market, and ultimate selling price",Real Estate Economics,10.1111/1540-6229.00038,B층 호가 변경 고전,학부②,assigned
