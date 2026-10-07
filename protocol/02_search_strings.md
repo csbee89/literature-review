@@ -53,7 +53,7 @@ NOT (stock* OR bond* OR equit* OR REIT* OR "interbank" OR "funding liquidity"
 TITLE-ABS-KEY( ( "time on market" OR "time on the market" OR "time-on-market" OR "time-on-the-market" OR "days on market" OR "days-on-market" OR "marketing time" OR "marketing duration" OR "selling time" OR "time to sale" OR "listing duration" OR "probability of sale" OR "withdrawn listing*" OR relist* OR "listing survival" )
 AND ( hous* OR home* OR residential OR dwelling* OR apartment* OR condominium* OR "real estate" OR "multiple listing" ) )
 AND PUBYEAR > 1985 AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE , "Korean" ) )
-AND ( LIMIT-TO ( DOCTYPE , "ar" ) OR LIMIT-TO ( DOCTYPE , "re" ) )
+AND ( LIMIT-TO ( DOCTYPE , "ar" ) OR LIMIT-TO ( DOCTYPE , "re" ) )   -- 문서유형 제한은 ②③에도 동일 적용 (학술지 논문만)
 ```
 블록 ②:
 ```
@@ -81,9 +81,7 @@ Scopus 식에서 `TITLE-ABS-KEY(...)` → `TS=(...)`, `PUBYEAR > 1985` → 타�
 - EconLit: 위 식을 `AB` 필드로. JEL 코드 보조 필터 `R21 OR R31 OR R32 OR D83`.
 - IDEAS: 불리언 지원이 약하다. 핵심 구 7개를 개별 검색: `"time on the market" housing`, `"days on market"`, `"housing market liquidity"`, `"liquidity index" housing`, `"list price" "time on market"`, `"market tightness" housing`, `"months of inventory"`. 결과는 수작업으로 Zotero에 넣고 `source=IDEAS`로 태그.
 
-## 4. SSRN
-
-전문 검색 불가, 제목·초록·키워드. 위 7개 구를 개별 검색, 2015년 이후 + 다운로드 100 이상 또는 게재 확인된 것만.
+## 4. SSRN — 사용하지 않음 (범위 '좁게': 동료심사 학술지만)
 
 ## 5. OpenAlex / Crossref (API, 재현 가능 로그)
 
@@ -111,7 +109,7 @@ KCI OpenAPI(`articleSearch`, 인증키 필요)로 제목·초록·키워드 검�
 
 > 스코핑에서 Crossref에 잡힌 국내 문헌 예: 고진수·최성호·노승철(2019, 주택연구 27(1), doi:10.24957/hsr.2019.27.1.05) 서울 주거용 부동산 매물소진기간 결정요인; 양재영·고진수(2019, 도시정책연구 10(3), doi:10.21447/jup.2019.10.3.101) 아파트 특성과 DOM; 오윤경(2026, 부동산학보 44(3), doi:10.37407/kres.2026.44.3.315) 부산 가격차별화·거래유동성 유형화. 저자 표기는 Crossref 로마자 표기를 역변환한 것이므로 **원문 확인 필요**.
 
-## 7. 회색문헌
+## 7. 회색문헌 (코퍼스 외 — RQ5 한국 현황 서술의 배경자료)
 
 | 기관 | 검색어 | 비고 |
 |---|---|---|
