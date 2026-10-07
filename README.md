@@ -18,10 +18,11 @@
 |---|---|
 | `protocol/` | 프로토콜, 검색식, 코드북, 타겟 저널 비교(04), **JHE 제약표(05)** |
 | `manuscript/` | 리뷰 원고 뼈대 (JHE 제약 헤더 포함). 집필 순서: 3장 → 4장 → 1장 → 2장 → 5장 → 초록 → Highlights |
+| `examples/` | **정리 수준의 기준 예시**(Famiglietti et al. 2020 전문 PDF + 1쪽 정리) |
 | `templates/` | 검색 로그, 선별 로그, 제외 코드, 추출 양식, 학생용 1쪽 양식 |
 | `seed/` | 앵커 문헌 목록, 검증 리포트, JHE 게재 인용 후보 15편 |
 | `scans/` | 2026-10-06 Crossref 스코핑 스캔 3축(약 600편) + `journals/` 후보 저널 8종 게재 지형 |
-| `students/` | **작업 지시서(assignment_brief)**, 주간 보고 양식, AI 사용 기록, 정리 예시 피드백, 아이디어 로그 |
+| `students/` | **운영 계획(assignment_brief v3)**, 주차별 배정표(assignments.csv), 주간 보고 양식, AI 사용 기록, 정리 예시 피드백, 아이디어 로그 |
 | `reports/` | 주간 보고 (`W01_이름.md`) |
 | `extraction/` · `analysis/` | 문헌 1쪽 정리 / 데이터 분석 과제 (섞지 않는다) |
 | `scripts/` | `slr_tools.py` — dedupe / kappa / openalex 검색 로그 |

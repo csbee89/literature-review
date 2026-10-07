@@ -1,0 +1,33 @@
+week,assign_date,due_date,person,first_author,year,title,journal,doi,why_this_paper,checker,status
+W1,2026-10-12,2026-10-16,박사,Carrillo,2013,To sell or not to sell: Measuring the heat of the housing market,Real Estate Economics,10.1111/reec.12003,C층 heat index. 구조모형 — 박사용,석사①,assigned
+W1,2026-10-12,2026-10-16,석사①,van Dijk,2024,Local constant-quality housing market liquidity indices,RSUE,10.1016/j.regsciurbeco.2024.103997,C층 유동성 지수. 계획서 핵심 인용,박사,assigned
+W1,2026-10-12,2026-10-16,석사②,Genesove,1997,Equity and time to sale in the real estate market,AER,10.3386/w4861,A층 고전. 자기자본과 매각시간,학부①,assigned
+W1,2026-10-12,2026-10-16,학부①,Haurin,1988,The duration of marketing time of residential housing,AREUEA J. (now REE),10.1111/1540-6229.00463,A층 출발점. 비전형성과 TOM,석사②,assigned
+W1,2026-10-12,2026-10-16,학부②,Kluger,1990,Measuring residential real estate liquidity,AREUEA J. (now REE),10.1111/1540-6229.00514,유동성 '측정' 최초 논문,학부③,assigned
+W1,2026-10-12,2026-10-16,학부③,Knight,2002,"Listing price, time on market, and ultimate selling price",Real Estate Economics,10.1111/1540-6229.00038,B층 호가 변경 고전,학부②,assigned
+W1,2026-10-12,2026-10-16,학부④,Tucker,2013,Days on market and home sales,RAND J. Economics,10.1111/1756-2171.12022,여름 정리본을 새 양식으로 다시. 재등록 리셋 정책,이원석,assigned
+W1,2026-10-12,2026-10-16,이원석,Dubé,2015,A spatiotemporal solution for the simultaneous sale price and time-on-the-market problem,Real Estate Economics,10.1111/1540-6229.12121,원석 본인 여름 정리를 새 양식으로. 연도는 Crossref 기준 2015(권호 확인),학부④,assigned
+W2,2026-10-19,2026-10-23,박사,Head,2014,"Search, liquidity, and the dynamics of house prices and construction",AER,10.1257/aer.104.4.1172,탐색 모형. 박사용,석사①,assigned
+W2,2026-10-19,2026-10-23,석사①,Carrillo,2015,Can tightness in the housing market help predict subsequent home price appreciation?,Real Estate Economics,10.1111/1540-6229.12082,C층 tightness의 선행성 — RQ4 핵심,박사,assigned
+W2,2026-10-19,2026-10-23,석사②,de Wit,2013,Asymmetric information and list-price reductions in the housing market,RSUE,10.2139/ssrn.1589296,B층 호가 인하,학부①,assigned
+W2,2026-10-19,2026-10-23,학부①,Glower,1998,Selling time and selling price: The influence of seller motivation,Real Estate Economics,10.1111/1540-6229.00763,A층. 오건 SDI의 출발 문헌,석사②,assigned
+W2,2026-10-19,2026-10-23,학부②,Anglin,2003,The trade-off between the selling price of residential properties and time-on-the-market,JREFE,10.1023/a:1021526332732,B층 과대호가(DOP),학부③,assigned
+W2,2026-10-19,2026-10-23,학부③,An,2013,How do market conditions impact price-TOM relationship? REO sales,J. Housing Economics,10.1016/j.jhe.2013.07.003,JHE. 국면별 이질성,학부②,assigned
+W2,2026-10-19,2026-10-23,학부④,Hayunga,2025,"Relisting, agent switching, and sale outcomes in the housing market",J. Housing Economics,10.1016/j.jhe.2025.102086,JHE. 재등록 — RQ3 직결,이원석,assigned
+W2,2026-10-19,2026-10-23,이원석,Ben-Shahar,2022,Price dispersion and time-on-market in the housing market,J. Housing Economics,10.1016/j.jhe.2022.101875,JHE. B층 가격분산,학부④,assigned
+W3,2026-10-26,2026-10-30,박사,Díaz,2013,"House prices, sales, and time on the market: A search-theoretic framework",IER,10.1111/iere.12019,탐색 이론. 박사용,석사①,assigned
+W3,2026-10-26,2026-10-30,석사①,Fisher,2003,Controlling for the impact of variable liquidity in commercial real estate price indices,Real Estate Economics,10.1111/1540-6229.00066,"C층 유동성 조정 지수(상업용, 방법론만)",박사,assigned
+W3,2026-10-26,2026-10-30,석사②,Genesove,2012,Search and matching in the housing market,J. Urban Economics,10.1016/j.jue.2012.01.002,탐색·매칭 실증,학부①,assigned
+W3,2026-10-26,2026-10-30,학부①,Forgey,1996,Search and liquidity in single-family housing,Real Estate Economics,10.1111/1540-6229.00691,A층 고전,석사②,assigned
+W3,2026-10-26,2026-10-30,학부②,Liu,2019,Listing strategies and housing busts: Cutting loss or cutting list price?,J. Housing Economics,10.1016/j.jhe.2018.09.006,JHE. 침체기 호가 전략,학부③,assigned
+W3,2026-10-26,2026-10-30,학부③,Lin,2025,"Selling price, time on the market, and contractual contingencies",J. Housing Economics,10.1016/j.jhe.2025.102062,JHE. 최신 A·B층,학부②,assigned
+W3,2026-10-26,2026-10-30,학부④,Miller,2012,Integrating real estate market conditions into home price forecasting systems,J. Housing Research,10.1080/10835547.2012.12092059,계획서 '3분기 선행' 출처 — 선행 시차 수치와 쪽수를 반드시,이원석,assigned
+W3,2026-10-26,2026-10-30,이원석,van Dijk,2017,"Internet search behavior, liquidity and prices in the housing market",Real Estate Economics,10.1111/1540-6229.12187,D층 검색량 지표,학부④,assigned
+W4,2026-11-02,2026-11-06,박사,Ngai,2014,Hot and cold seasons in the housing market,AER,10.1257/aer.104.12.3991,계절성 이론. 박사용,석사①,assigned
+W4,2026-11-02,2026-11-06,석사①,Anenberg,2017,A more timely house price index,REStat,10.2139/ssrn.2402394,매물 자료로 만든 선행 가격지수,박사,assigned
+W4,2026-11-02,2026-11-06,석사②,Benefield,2011,"On the relationship between property price, time-on-market, and photo depictions in a MLS",JREFE,10.4108/eai.5-9-2018.2281277,A·B층 동시추정,학부①,assigned
+W4,2026-11-02,2026-11-06,학부①,Johnson,2007,The probability of sale for residential real estate,J. Housing Research,10.1080/10835547.2007.12091978,A층 매각확률,석사②,assigned
+W4,2026-11-02,2026-11-06,학부②,Filippova,2014,"Market conditions, marketing time, and house prices",J. Housing Research,10.1080/10835547.2013.12092086,국면 조건,학부③,assigned
+W4,2026-11-02,2026-11-06,학부③,Chernobai,2019,Liquidity imbalance in the residential real estate market,J. Housing Research,10.1080/10527001.2020.1776513,C층,학부②,assigned
+W4,2026-11-02,2026-11-06,학부④,Beracha,2013,Forecasting residential real estate price changes from online search activity,J. Real Estate Research,10.1080/10835547.2013.12091364,D층 검색량 → 가격 예측,이원석,assigned
+W4,2026-11-02,2026-11-06,이원석,Godinho,2026,House hunting high and low: Constructing a Housing Search Index for Portugal,J. Housing Economics,10.1016/j.jhe.2026.102163,JHE 최신. D층 탐색 지수,학부④,assigned
