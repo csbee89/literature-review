@@ -24,7 +24,7 @@ def tier_of(note):
     if m: return m.group(1)
     if re.search(r"theory",note or "",re.I): return "T"
     return "?"
-peri=re.compile(r"flood|school|crime|EPC|energy|HOA|historic|film|subdivision|names|lockbox|estate sales|water quality|VR|virtual|technology|agent|broker|gender|ethnic|bonus|commission|limited service|relocation|cash discount|contingenc|concession|hurricane|COVID|lockdown|tariff|shock|disruption|cladding|Surfside|police|nursing|rental externality|stamp duty|tax|MRT|noise|design features|sustainab|green|solar|AI listing|photo|appointment|amenity|uniqueness|quality TOM|HOA|marketability|sex offender|crisis|TRA97|salesperson|intermediation|collaboration|bankruptcy|visits|viewings|disaster|MLS data|online agencies|second home|high-rise|film|Save Our|Megan|EIFS|off-dollar|range pricing|estate|foreclos|vacant|bank|REO|distressed|forced",re.I)
+peri=re.compile(r"flood|school|crime|EPC|energy|HOA|historic|film|subdivision|names|lockbox|estate sales|water quality|VR|virtual|technology|agent|broker|gender|ethnic|bonus|commission|limited service|relocation|cash discount|contingenc|concession|hurricane|COVID|lockdown|tariff|shock|disruption|cladding|Surfside|police|nursing|rental externality|stamp duty|tax|MRT|noise|design features|sustainab|green|solar|AI listing|photo|appointment|amenity|uniqueness|quality TOM|HOA|marketability|sex offender|crisis|TRA97|salesperson|intermediation|collaboration|bankruptcy|visits|viewings|disaster|MLS data|online agencies|second home|high-rise|film|Save Our|Megan|EIFS|off-dollar|range pricing|foreclos|vacant|bank|REO|distressed|forced",re.I)
 inc=[]
 for r in rows:
     d,n=r["decision"],r["note"]
@@ -127,6 +127,28 @@ ADD=ADD+ADD2
 
 for t,y,v,d,tier,n,prov in ADD:
     inc.append(dict(rid="ADD",doi=d.lower(),title=t,year=y,venue=v,authors="",tier=tier,status="I",note=n,provenance=prov))
+
+# --- OpenAlex supplementary search (2026-10-10, api key via env) ---
+OA_PERI={"N342","N542","N350","N284","N496","N279","N303","N277","N278","N282","N283","N300","N298","N387","N406","N407","N354","N423","N529","N532","N554","N310","N296"}
+OA_VENUE_FIX={"N529":"부동산학연구 (Korea Real Estate Review)","N532":"부동산학연구 (Korea Real Estate Review)"}
+oa_rows={r["nid"]:r for r in csv.DictReader(open("oa_keep.csv",encoding="utf-8"))}
+oa_dec={}
+for fn in ("oa_decisions_a.txt","oa_decisions_b.txt"):
+    for line in open(fn,encoding="utf-8").read().replace("|","\n").splitlines():
+        m=re.match(r"(N\d+)\s+(I\??|E\d(?:/E\d)?|DUP)\s*(\S+)?\s*(.*)",line.strip())
+        if m: oa_dec[m.group(1)]=(m.group(2),m.group(3) or "",m.group(4))
+for nid,(d,t,n) in oa_dec.items():
+    if not d.startswith("I"): continue
+    r=oa_rows[nid]; v=OA_VENUE_FIX.get(nid,r["venue"])
+    kr=bool(re.search(r"[가-힣]",v+r["title"]+r["abstract"][:200])) or re.search(r"Korea|KR\b",v+" "+n) is not None
+    note=n+(" KR" if kr and "KR" not in n else "")+(" [peri]" if nid in OA_PERI else "")
+    inc.append(dict(rid=nid,doi=r["doi"].lower(),title=html.unescape(r["title"]),year=r["year"],venue=v,authors=r["authors"],tier=t,status=d,note=note,provenance="OA|"+r["blocks"]))
+
+VENFIX={'10.1080/00036846': 'Applied Economics', '10.1016/j.joep': 'Journal of Economic Psychology', '10.1111/1475-4932': 'Economic Record', '10.22423/kreus': '부동산·도시연구 (Korea Real Estate Urban Studies)', '10.1111/boer': 'Bulletin of Economic Research', '10.1080/10835547.2012': 'Journal of Real Estate Practice and Education', '10.3934/qfe': 'Quantitative Finance and Economics'}
+for r in inc:
+    if not r['venue']:
+        for k,v in VENFIX.items():
+            if r['doi'].startswith(k): r['venue']=v
 # dedupe by doi, then title
 seen={};final=[]
 def nt(t): t=t.lower(); t=re.sub(r"[^a-z0-9 ]"," ",t); return re.sub(r"\s+"," ",t).strip()
@@ -135,7 +157,7 @@ for r in inc:
     if k in seen or nt(r["title"]) in seen: continue
     seen[k]=1; seen[nt(r["title"])]=1; final.append(r)
 for r in final:
-    r["layer"]="theory" if "T" in r["tier"] else ("peripheral" if peri.search(r["note"]+" "+r["title"]) and not re.search(r"liquidity ind|tightness|hot|price dispersion|list(ing)? price|asking price|relist|withdraw|TOM distribution|measurement|search|volume|turnover|absorption|inventory|forecast|index|KR|probability of sale|censored|TOM and|price-TOM|TOM-price|seller motivation|hazard|duration",r["note"]+" "+r["title"],re.I) else "core")
+    r["layer"]="theory" if "T" in r["tier"] else ("peripheral" if "[peri]" in r["note"] else "peripheral" if peri.search(r["note"]+" "+r["title"]) and not re.search(r"liquidity ind|tightness|hot|price dispersion|list(ing)? price|asking price|relist|withdraw|TOM distribution|measurement|search|volume|turnover|absorption|inventory|forecast|index|KR|probability of sale|censored|TOM and|price-TOM|TOM-price|seller motivation|hazard|duration",r["note"]+" "+r["title"],re.I) else "core")
 final.sort(key=lambda r:(r["layer"],str(r["year"])))
 with open("included_studies.csv","w",encoding="utf-8",newline="") as f:
     w=csv.DictWriter(f,fieldnames=list(final[0].keys())); w.writeheader(); w.writerows(final)

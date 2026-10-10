@@ -1,0 +1,94 @@
+N268 E3 housing turnover Seoul 1994 (mobility/turnover not sales liquidity; JPER) 
+N271 E1 commercial property liquidity news sentiment
+N274 E4 housing liquidity = wealth illiquidity (LTC insurance), not market indicator
+N276 I C intervention analysis apartment trading volume Seoul KR
+N277 I? C interest rates housing market VAR KR (volume var? full text)
+N278 I? C Korean housing dynamics sign-restricted VAR (transaction volume var? full text)
+N279 I C determinants housing sales transaction volume population KR
+N280 E4 holding period survival (ownership duration, not TOM)
+N282 I? C regional adjustment structures (volume? full text) KR
+N283 I? C/B price-tier adjustment Seoul (volume? full text) KR
+N284 I? C LTPZ lifting spillover DID KR (volume outcome? full text)
+N296 I C existing-house transaction volume COVID Tokyo JP (English abstract; JCPIJ) 
+N298 I? C information effect property market KR (volume-price dynamics; full text)
+N299 I C monthly effect apartment price and transaction volume KR
+N300 I? C price-increase expectation effect apartment transactions KR (full text)
+N303 I C demographic change housing transaction volume KR
+N306 E3 housing turnover segregation (occupancy turnover)
+N310 I? C factors affecting housing sales Turkey (venue check: Yaşar Univ J, low-tier)
+N337 I C/D news coverage price trading volume VAR KR
+N339 E4 tax effects on prices (no volume indicator; abstract missing)
+N342 I C LTPS lifting/reimposition prices and transaction volume Seoul KR
+N343 I C/D news coverage sentiment price trading volume PVAR KR
+N344 E1 jeonse rental index smoothing (rental market)
+N347 I B/C/D online listing volume leads price changes KR
+N349 I C/D internet search queries forecasting transaction volume KSCE
+N350 I C BP oil spill sales volume prices condos Land Economics
+N351 I C liquidity and housing market performance spatial panel Land Use Policy
+N354 I? B sunk costs list prices housing Management Science (list price outcome? full text)
+N355 I C transaction sequencing house price pressures Management Science
+N366 E3 social media sales volume developer marketing
+N376 E2 dissertation (ODU) agents effort sellers behavior
+N382 I B reference pricing Shenzhen list prices transactions Panoeconomicus
+N387 I? C absorption rates new build diversity (new-build only; Planning Practice & Research) 
+N398 E2 conference proceedings absorption ANN
+N399 DUP N398
+N405 E3 estate agency business performance
+N406 I? A sole vs multi agency practice England (sale time outcome? Property Management; full text)
+N407 I? A FSBO vs broker Norway (sale time? Property Management; full text)
+N411 E3 developer unit sales volume marketing
+N418 E2/E3 new build dynamics 1980s descriptive Regional Studies (new build; check)
+N421 E1 pre-sale ownership trading volume (분양권, excluded by scope)
+N422 I C/D news big data Google search apartment transaction volume KR
+N423 I? C residential preference area price and trading volume Busan KR (full text)
+N424 I C/D online community sentiment price transaction volume KR
+N425 I C dynamic causality housing price and trading volume KR
+N426 E1 auction sale ratios
+N427 I T construction financing search frictions RED
+N428 E4 credit supply speculation (no liquidity indicator in abstract)
+N430 E3 developer distress pricing (new-build developers)
+N431 I B underquoting auctions RFS
+N437 E1 public housing sales policy
+N442 I C price-volume causality Seoul Busan KR (SH Urban Research)
+N456 E4 interest rates equilibrium theory (no liquidity indicator)
+N459 I? C/T efficiency housing market JP (full text; volume? ) 
+N460 I? T optimal list price transaction price theory JP (full text)
+N462 E4 equity cross-listings
+N463 I B recurrent list-price reductions likelihood of sale J Financial Research
+N464 I C sentiment interest rate transaction volume BVAR KR
+N465 I B/C/D asking price and listing volume on transaction price ML KR
+N466 I B lemons overpricing legal doctrines JLE (sale outcome)
+N470 I C price-volume dynamics by housing type KR
+N471 E1 subscription competition (presale)
+N476 I B loss aversion seller behavior QJE Genesove Mayer 2001
+N478 I T foreclosures housing downturns structural REStud Guren McQuade
+N479 I T why inventories rise when demand falls Singapore Econ Rev (Stein-type theory)
+N481 E1/E2 Nairobi property market liquidity (investment performance; University J low-tier)
+N494 E3 LIHTC housing turnover (occupancy)
+N495 E4 hedonic prices Tucson
+N496 I? C HPR cancellation outcomes China (transaction volume outcome? full text; Urban Governance)
+N508 E2 Zenodo preprint
+N511 E2 Zenodo working paper Brazilian liquidity index (grey; note for background)
+N512 E2 Zenodo working paper freeze index
+N518 E2 Zenodo
+N520 E2 no venue (thesis) KR business cycle
+N522 E2 thesis
+N524 E2 no venue (geography of liquidity Great Recession; check if journal version exists)
+N529 I? B seller credit risk asking price KR (venue missing; find journal)
+N530 E2 no venue working paper agent value-added
+N532 I? C corporate transaction volume ratio apartment prices KR (venue missing)
+N533 E4 agents transaction type (no liquidity indicator)
+N536 E1 auction sale rates
+N537 E2 ISPRS archives proceedings
+N540 I C trading volume on prices and volatility Seoul 공공정책연구 KR
+N542 I C mortgage regulation high-price housing price and trading volume 국토계획 KR
+N543 I C transaction volume statistics applications improvements 국토연구 KR
+N544 I C do volumes explain prices or converse 국토연구 KR
+N545 I C factors shaping price-volume relation 국토연구 KR
+N546 I C asymmetric volatility and trading volume KR
+N549 I C causality price and trading cyclical variation KR
+N552 E1 unsold new apartments (미분양, presale)
+N553 I C interaction price and transaction volume Seoul 부동산학보 KR
+N554 I? C sentiment demographics housing sales market 부동산학보 KR (volume? full text)
+N555 I C behavioral economic analysis housing transaction volume 부동산학연구 KR
+N556 I D news sentiment and transaction volume topic modeling 정보과학회 KR
