@@ -43,7 +43,7 @@ while pool or any(pending.values()):
         for k in range(n):
             r=pending[name].pop(0) if pending[name] else pick(pool,pref)
             if not r: break
-            out.append(dict(week=f"W{wk:02d}",assign_date=d0.isoformat(),due_date=d1.isoformat(),person=name,workload="full",layer=r["layer"],tier=r["tier"],first_author=(r["authors"].split(";")[0].split(",")[0] if r["authors"] else ""),year=r["year"],title=r["title"],venue=r["venue"],doi=r["doi"],status=r["status"],note=r["note"],checker=pairs[name]))
+            out.append(dict(week=f"W{wk:02d}",assign_date=d0.isoformat(),due_date=d1.isoformat(),person=name,workload="full",pid=r.get("pid",""),stage=r.get("stage","")[:2],function=r.get("function","")[:2],regime=r.get("regime",""),layer=r["layer"],tier=r["tier"],first_author=(r["authors"].split(";")[0].split(",")[0] if r["authors"] else ""),year=r["year"],title=r["title"],venue=r["venue"],doi=r["doi"],status=r["status"],note=r["note"],checker=pairs[name]))
     wk+=1
 full_weeks=wk-1
 lp=list(light); wk=1
