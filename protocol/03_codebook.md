@@ -89,6 +89,7 @@
 | `function` | 논문이 지표에 대해 하는 일 | `F1` 정의·구축 / `F2` 측정 쟁점 / `F3` 선행성·관계 (복수면 세미콜론, 주된 것 먼저) |
 | `regime` | 제도환경 | `MLS` / `NML`(비MLS 포털·중개) / `AUC`(경매) / `MULTI` |
 | `stage_changed` | 초기 코드와 다르게 판단했으면 `Y` + `notes`에 사유 | `Y` / `N` |
+| `depth` | 추출 깊이(프로토콜 §8.1). short이면 A·B·C의 서지·지표명·정의·단위·`aggregation`·`data_source`, D의 `method_family`, E 전체, F의 질 평가만 채우고 나머지는 `NA(short)` | `full` / `short` |
 
 ## 기재 예시
 

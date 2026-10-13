@@ -72,7 +72,7 @@ lines = [
     ("", B),
     ("시트 안내", BB),
     ("종합148: 이번 리뷰에서 정리할 논문 전체(교수 승인 10/11). 주차·담당·짝·원문 받는 법이 함께 있다.", B),
-    ("주차별배정: 매주 누가 무엇을 하는지. 노란 칸(제출일·접수·짝점검·반려사유)을 원석이 채운다. 맨 위 회색 '예시' 행을 따라 쓴다.", B),
+    ("주차별배정: 매주 누가 무엇을 하는지. 한 사람의 한 주 몫 = 완전 정리 1편 또는 짧은 정리 4편(같은 주·같은 사람 행이 4줄). 노란 칸(제출일·접수·짝점검·반려사유)을 원석이 채운다. 맨 위 회색 '예시' 행을 따라 쓴다.", B),
     ("진행현황: 주차별배정의 노란 칸을 채우면 자동으로 계산된다(수식). 매주 수요일 보고에 이 숫자를 쓴다.", B),
     ("분류틀: 단계·기능·시장 코드의 뜻과 148편의 교차표(수식).", B),
     ("선별과정: 52,006건에서 148편이 되기까지(PRISMA). 논문 3장의 숫자.", B),
@@ -93,15 +93,15 @@ ws.column_dimensions["A"].width = 120
 
 # 2 종합148
 ws = wb.create_sheet("종합148")
-hdr = ["pid", "주차", "담당", "짝", "연도", "제목", "학술지", "DOI", "단계", "기능", "시장", "한국", "원문 상태", "원문 받는 법", "비고"]
+hdr = ["pid", "주차", "담당", "짝", "연도", "제목", "학술지", "DOI", "단계", "기능", "시장", "한국", "원문 상태", "원문 받는 법", "비고", "정리 깊이"]
 rows = []
 for r in syn:
     pilot = r["person"].startswith("전원")
     rows.append([r["pid"], r["week"] or "예시", r["person"] or "Claude", "전원 비교" if pilot else chk.get(r["pid"], "이원석"),
                  int(r["year"]), r["title"], r["venue"], r["doi_link"], r["stage"], r["function"], r["regime"], r["korean"],
-                 r["pdf_status"], r["how_to_get"], r["note"]])
+                 r["pdf_status"], r["how_to_get"], r["note"], "짧은" if r.get("depth") == "short" else "완전"])
 rows.sort(key=lambda x: (x[1] if x[1] != "예시" else "W00", x[0]))
-table(ws, hdr, rows, [7, 7, 10, 10, 7, 60, 30, 30, 26, 18, 20, 6, 22, 42, 40])
+table(ws, hdr, rows, [7, 7, 10, 10, 7, 60, 30, 30, 26, 18, 20, 6, 22, 42, 40, 9])
 for i in range(2, len(rows) + 2):
     c = ws.cell(row=i, column=8)
     if c.value:
@@ -112,10 +112,10 @@ N = len(rows) + 1
 # 3 주차별배정
 ws = wb.create_sheet("주차별배정")
 hdr = ["주차", "배정일", "마감", "담당", "종류", "pid", "단계", "기능", "시장", "한국", "제목", "학술지", "DOI", "짝", "제출일", "접수", "짝점검", "반려사유"]
-ex = ["예시", "2026-10-13", "2026-10-17", "Claude", "예시(정리 완료)", "p115", "S4", "F3", "비MLS 포털·중개", "Y",
+ex = ["예시", "2026-10-13", "2026-10-17", "Claude", "예시(완전·짧은 둘 다)", "p115", "S4", "F3", "비MLS 포털·중개", "Y",
       "Frequency domain analysis to detect common cycle in housing price and trading volume", "주택도시금융연구",
       "10.38100/jhuf.2021.6.2.53", "이원석", "2026-10-13", "O", "O", ""]
-rows = [ex] + [[a["week"], a["assign_date"], a["due_date"], a["person"], "파일럿(전원 같은 논문)" if a["kind"] == "pilot" else "정리",
+rows = [ex] + [[a["week"], a["assign_date"], a["due_date"], a["person"], "파일럿(전원 같은 논문)" if a["kind"] == "pilot" else ("짧은 정리" if a["kind"] == "short" else "완전 정리"),
                 a["pid"], a["stage"], a["function"], a["regime"], a["korean"], a["title"], a["venue"], a["doi"], a["checker"],
                 None, None, None, None] for a in asg]
 table(ws, hdr, rows, [7, 11, 11, 9, 16, 7, 6, 6, 18, 6, 55, 26, 28, 12, 11, 9, 9, 30],
@@ -150,7 +150,7 @@ for j, col in zip(range(2, 7), "BCDEF"):
     ws.cell(row=t, column=j, value=f"=SUM({col}2:{col}{t - 1})")
 ws.cell(row=t, column=7, value=f'=IF(C{t}=0,"-",D{t}/C{t})').number_format = "0%"
 boxed(ws, 2, t, 7, bold_rows=(t,))
-ws.cell(row=t + 2, column=1, value="W01 파일럿은 같은 논문을 8명이 정리하므로 배정 8건으로 센다. 예시 p115는 Claude가 정리했고 원석이 검증한다.").font = B
+ws.cell(row=t + 2, column=1, value="배정·제출은 논문 편수로 센다(짧은 정리 4편 = 4건). W01 파일럿은 같은 논문을 8명이 정리하므로 8건. 예시 p115는 Claude가 정리했고 원석이 검증한다.").font = B
 for j, w in enumerate([8, 8, 8, 9, 8, 12, 9], 1):
     ws.column_dimensions[get_column_letter(j)].width = w
 
