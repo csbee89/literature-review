@@ -71,6 +71,7 @@ lines = [
     ("작성 2026-10-13 · 연구책임자 최승비 · 원본 데이터: 저장소 csbee89/literature-review", B),
     ("", B),
     ("시트 안내", BB),
+    ("사람별일정: 8명이 몇 주차에 무엇을 하는지 한눈에 보는 표. 가장 먼저 볼 시트.", B),
     ("종합148: 이번 리뷰에서 정리할 논문 전체(교수 승인 10/11). 주차·담당·짝·원문 받는 법이 함께 있다.", B),
     ("주차별배정: 매주 누가 무엇을 하는지. W1~W5는 1인 과제 1개, W6부터 1인 과제 2개. 과제 1개 = 긴 정리 1편 또는 짧은 정리 4편. 같은 과제는 slot 열이 같다. 노란 칸(제출일·접수·짝점검·반려사유)을 원석이 채운다. 맨 위 회색 '예시' 행을 따라 쓴다.", B),
     ("진행현황: 주차별배정의 노란 칸을 채우면 자동으로 계산된다(수식). 매주 수요일 보고에 이 숫자를 쓴다.", B),
@@ -108,6 +109,45 @@ for i in range(2, len(rows) + 2):
         c.hyperlink = c.value
         c.font = LINK
 N = len(rows) + 1
+
+
+# 2b 사람별일정
+from collections import defaultdict
+ws = wb.create_sheet("사람별일정", 1)
+people = ["전우성", "손수연", "최찬미", "이원석", "이다윤", "오건", "이지은", "홍다연"]
+role = {"전우성": "박사", "손수연": "석사", "최찬미": "석사", "이원석": "학부 3·담당", "이다윤": "학부 3", "오건": "학부 2", "이지은": "학부 2", "홍다연": "학부 2"}
+weeks = sorted({a["week"] for a in asg})
+g = defaultdict(list)
+for a in asg:
+    g[(a["person"], a["week"])].append(a)
+ws.cell(row=1, column=1, value="사람별 주간 과제 — 월요일에 받아 금요일까지 낸다. '긴' = 1쪽 양식 1편, '짧은 N편' = 짧은 양식 N편. 다음 주 화요일까지 짝이 원문과 대조한다.").font = BB
+head_row(ws, 3, ["이름", "구분"] + [f"{w} ({min(a['assign_date'] for a in asg if a['week'] == w)[5:]})" for w in weeks])
+for i, p in enumerate(people, 4):
+    ws.cell(row=i, column=1, value=p)
+    ws.cell(row=i, column=2, value=role[p])
+    for j, w in enumerate(weeks, 3):
+        it = g.get((p, w), [])
+        parts = []
+        for k in sorted({x["slot"] for x in it}):
+            sl = [x for x in it if x["slot"] == k]
+            if sl[0]["kind"] == "pilot":
+                parts.append("p023 파일럿(전원 같은 논문)")
+            elif sl[0]["kind"] == "short":
+                parts.append(f"짧은 {len(sl)}편: " + ", ".join(x["pid"] for x in sl))
+            else:
+                parts.append(f"{sl[0]['pid']} 긴: {sl[0]['title'][:45]}")
+        c = ws.cell(row=i, column=j, value="\n".join(parts) if parts else "—")
+        c.alignment = WR
+boxed(ws, 4, 3 + len(people), 2 + len(weeks))
+for i in range(4, 4 + len(people)):
+    for j in range(3, 3 + len(weeks)):
+        ws.cell(row=i, column=j).alignment = WR
+    ws.row_dimensions[i].height = 75
+ws.column_dimensions["A"].width = 9
+ws.column_dimensions["B"].width = 11
+for j in range(3, 3 + len(weeks)):
+    ws.column_dimensions[get_column_letter(j)].width = 30
+ws.freeze_panes = "C4"
 
 # 3 주차별배정
 ws = wb.create_sheet("주차별배정")
