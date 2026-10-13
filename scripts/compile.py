@@ -33,7 +33,7 @@ for r in rows:
     if d not in ("I","I?"): continue
     doi=DOIFIX.get(r["rid"],r["doi"] or "")
     if not doi and r["rid"] in res and res[r["rid"]].get("cr_score") and float(res[r["rid"]]["cr_score"])>=0.95: doi=res[r["rid"]]["cr_doi"]
-    TFIX={"R200":"Housing price, trading volume and time on market [title garbled in source; verify in IRER 2011]"}
+    TFIX={"R200":"\"Fire Sales\" in Housing Market: Is the House-Search Process Similar to a Theme Park Visit?"}  # Crossref 제목 결손, 원문 PDF로 확인(2026-10-13)
     inc.append(dict(rid=r["rid"],doi=doi,title=TFIX.get(r["rid"],html.unescape(r["title"])),year=r["year"],venue=r["venue"],authors=r["authors"],tier=t,status=d,note=n,provenance=r["sources"]+"|"+r["blocks"]))
 ADD=[ # (title,year,venue,doi,tier,note,provenance)
 ("Reference Dependence in the Housing Market",2022,"American Economic Review","10.1257/aer.20191766","B","listing decisions reference points (journal version of SSRN R611)","resolver"),
