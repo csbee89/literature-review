@@ -14,3 +14,4 @@
 | 일자 | 개정 | 영향 |
 |---|---|---|
 | 2026-10-13 | v0.7.2 추출 깊이 차등(§8.1): F3 표준 시계열 연관 연구 48편은 짧은 양식 | 목록·기준 변경 없음. 추출 시작(10/19) 전 개정. 논문 방법 절에 "extraction depth was tiered before extraction began"로 보고 |
+| 2026-10-13 | v0.7.3 독립 이중 추출(§8.1): 깊이 차등 폐지, 전 논문 단일 양식, AI 1차 + 사람 2차 독립 추출, 불일치는 연구책임자 판정 | 목록·기준·틀 변경 없음. 추출 시작(10/21) 전 개정. 방법 절에 "data were extracted independently by an AI-assisted first extractor and a trained human second extractor; disagreements were resolved by the lead author against the full text"로 보고하고 일치율 제시 |

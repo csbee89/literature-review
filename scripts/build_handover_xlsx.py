@@ -59,7 +59,6 @@ def boxed(ws, r1, r2, ncol, bold_rows=()):
 syn = list(csv.DictReader(open("papers/pdf_status.csv", encoding="utf-8-sig")))
 asg = list(csv.DictReader(open("students/assignments.csv", encoding="utf-8")))
 inc = list(csv.DictReader(open("review/included_studies.csv", encoding="utf-8")))
-chk = {a["pid"]: a["checker"] for a in asg if a["kind"] != "pilot"}
 
 wb = Workbook()
 
@@ -68,19 +67,23 @@ ws = wb.active
 ws.title = "안내"
 lines = [
     ("유동성 지표 체계적 문헌고찰 — 담당자(이원석) 작업 파일", T),
-    ("작성 2026-10-13 · 연구책임자 최승비 · 원본 데이터: 저장소 csbee89/literature-review", B),
+    ("작성 2026-10-13 (v11) · 연구책임자 최승비 · 원본 데이터: 저장소 csbee89/literature-review", B),
+    ("", B),
+    ("원석이 하는 일 (매주)", BB),
+    ("① 수요일: 그 주 논문 원문을 구해 단톡방·드라이브에 올린다(원문 상태가 '받음'이 아닌 것). ② 화요일 18:00 마감 후: 워드·시트가 들어왔는지, 빈칸·쪽수 누락이 없는지만 본다. 내용이 맞는지는 판단하지 않는다. ③ 주차별배정의 노란 칸을 채운다. ④ 본인 배정 논문도 정리한다.", B),
+    ("내용 대조는 Claude가 한다: Claude가 원문으로 따로 정리해 둔 것(1차 추출)과 학생 정리(2차 추출)를 맞춘 대조표를 매주 만들고, 다른 곳은 교수가 판정한다. 원석은 Claude 정리를 보지 않는다.", B),
     ("", B),
     ("시트 안내", BB),
     ("사람별일정: 8명이 몇 주차에 무엇을 하는지 한눈에 보는 표. 가장 먼저 볼 시트.", B),
-    ("종합148: 이번 리뷰에서 정리할 논문 전체(교수 승인 10/11). 주차·담당·짝·원문 받는 법이 함께 있다.", B),
-    ("주차별배정: 매주 누가 무엇을 하는지. W1~W5는 1인 과제 1개, W6부터 1인 과제 2개. 과제 1개 = 긴 정리 1편 또는 짧은 정리 4편. 같은 과제는 slot 열이 같다. 노란 칸(제출일·접수·짝점검·반려사유)을 원석이 채운다. 맨 위 회색 '예시' 행을 따라 쓴다.", B),
+    ("종합148: 이번 리뷰에서 정리할 논문 전체(교수 승인 10/11). 주차·담당·원문 받는 법이 함께 있다. p115·p033은 정리 예시라 배정하지 않는다.", B),
+    ("주차별배정: 매주 누가 어떤 논문을 하는지. W1~W5는 1인 1편, W6부터 1인 2편. 수요일 배정, 다음 주 화요일 18:00 마감. 노란 칸(원문 배포·제출일·워드·시트·접수·반려사유)을 원석이 채운다. 맨 위 회색 '예시' 행을 따라 쓴다.", B),
     ("진행현황: 주차별배정의 노란 칸을 채우면 자동으로 계산된다(수식). 매주 수요일 보고에 이 숫자를 쓴다.", B),
     ("분류틀: 단계·기능·시장 코드의 뜻과 148편의 교차표(수식).", B),
     ("선별과정: 52,006건에서 148편이 되기까지(PRISMA). 논문 3장의 숫자.", B),
     ("전체438: 제목·초록 선별을 통과한 438편과 각 편이 종합/배경/증거지도 중 어디로 갔는지.", B),
     ("", B),
     ("노란 칸 입력 규칙", BB),
-    ("접수: O(통과) / 반려 / 미제출 중 하나. 짝점검: O / 수정필요. 반려사유는 짧게(예: 정의 원문 쪽수 없음).", B),
+    ("원문 배포: O. 워드·시트: O(냈음) / X. 접수: O(통과) / 반려 / 미제출. 반려는 빈칸이 있거나 쪽수가 없을 때만. 반려사유는 짧게(예: 정의 칸 쪽수 없음).", B),
     ("원문 상태 '도서관 전자저널'은 학교 도서관 로그인 후 DOI 링크로 받는다. 안 되면 상호대차.", B),
     ("원문 상태 '한국 학술지'는 KCI에서 논문명 검색 → 원문보기. 안 되면 RISS·DBpia.", B),
     ("원문 상태 '받음'은 저장소 papers/ 폴더에 PDF가 있다(pid 이름).", B),
@@ -94,17 +97,15 @@ ws.column_dimensions["A"].width = 120
 
 # 2 종합148
 ws = wb.create_sheet("종합148")
-hdr = ["pid", "주차", "담당", "짝", "연도", "제목", "학술지", "DOI", "단계", "기능", "시장", "한국", "원문 상태", "원문 받는 법", "비고", "정리 깊이"]
+hdr = ["pid", "주차", "담당", "연도", "제목", "학술지", "DOI", "단계", "기능", "시장", "한국", "원문 상태", "원문 받는 법", "비고"]
 rows = []
 for r in syn:
-    pilot = r["person"].startswith("전원")
-    rows.append([r["pid"], r["week"] or "예시", r["person"] or "Claude", "전원 비교" if pilot else chk.get(r["pid"], "이원석"),
-                 int(r["year"]), r["title"], r["venue"], r["doi_link"], r["stage"], r["function"], r["regime"], r["korean"],
-                 r["pdf_status"], r["how_to_get"], r["note"], "짧은" if r.get("depth") == "short" else "긴"])
+    rows.append([r["pid"], r["week"], r["person"], int(r["year"]), r["title"], r["venue"], r["doi_link"],
+                 r["stage"], r["function"], r["regime"], r["korean"], r["pdf_status"], r["how_to_get"], r["note"]])
 rows.sort(key=lambda x: (x[1] if x[1] != "예시" else "W00", x[0]))
-table(ws, hdr, rows, [7, 7, 10, 10, 7, 60, 30, 30, 26, 18, 20, 6, 22, 42, 40, 9])
+table(ws, hdr, rows, [7, 7, 12, 7, 60, 30, 30, 26, 18, 20, 6, 22, 42, 40])
 for i in range(2, len(rows) + 2):
-    c = ws.cell(row=i, column=8)
+    c = ws.cell(row=i, column=7)
     if c.value:
         c.hyperlink = c.value
         c.font = LINK
@@ -120,22 +121,14 @@ weeks = sorted({a["week"] for a in asg})
 g = defaultdict(list)
 for a in asg:
     g[(a["person"], a["week"])].append(a)
-ws.cell(row=1, column=1, value="사람별 주간 과제 — 월요일에 받아 금요일까지 낸다. '긴' = 1쪽 양식 1편, '짧은 N편' = 짧은 양식 N편. 다음 주 화요일까지 짝이 원문과 대조한다.").font = BB
+ws.cell(row=1, column=1, value="사람별 주간 논문 — 수요일에 받아 다음 주 화요일 18:00까지 워드 1쪽 + 구글시트 행을 낸다. 날짜는 배정일.").font = BB
 head_row(ws, 3, ["이름", "구분"] + [f"{w} ({min(a['assign_date'] for a in asg if a['week'] == w)[5:]})" for w in weeks])
 for i, p in enumerate(people, 4):
     ws.cell(row=i, column=1, value=p)
     ws.cell(row=i, column=2, value=role[p])
     for j, w in enumerate(weeks, 3):
         it = g.get((p, w), [])
-        parts = []
-        for k in sorted({x["slot"] for x in it}):
-            sl = [x for x in it if x["slot"] == k]
-            if sl[0]["kind"] == "pilot":
-                parts.append("p023 파일럿(전원 같은 논문)")
-            elif sl[0]["kind"] == "short":
-                parts.append(f"짧은 {len(sl)}편: " + ", ".join(x["pid"] for x in sl))
-            else:
-                parts.append(f"{sl[0]['pid']} 긴: {sl[0]['title'][:45]}")
+        parts = [f"{x['pid']} {x['title'][:45]}" for x in it]
         c = ws.cell(row=i, column=j, value="\n".join(parts) if parts else "—")
         c.alignment = WR
 boxed(ws, 4, 3 + len(people), 2 + len(weeks))
@@ -151,46 +144,46 @@ ws.freeze_panes = "C4"
 
 # 3 주차별배정
 ws = wb.create_sheet("주차별배정")
-hdr = ["주차", "배정일", "마감", "담당", "종류", "pid", "단계", "기능", "시장", "한국", "제목", "학술지", "DOI", "짝", "제출일", "접수", "짝점검", "반려사유"]
-ex = ["예시", "2026-10-13", "2026-10-17", "Claude", "예시(긴·짧은 둘 다)", "p115", "S4", "F3", "비MLS 포털·중개", "Y",
+hdr = ["주차", "배정일", "마감", "담당", "pid", "단계", "기능", "시장", "한국", "제목", "학술지", "DOI", "원문 상태", "원문 배포", "제출일", "워드", "시트", "접수", "반려사유"]
+ex = ["예시", "2026-10-21", "2026-10-27", "Claude", "p115", "S4", "F3", "비MLS 포털·중개", "Y",
       "Frequency domain analysis to detect common cycle in housing price and trading volume", "주택도시금융연구",
-      "10.38100/jhuf.2021.6.2.53", "이원석", "2026-10-13", "O", "O", ""]
-rows = [ex] + [[a["week"], a["assign_date"], a["due_date"], a["person"], "파일럿(전원 같은 논문)" if a["kind"] == "pilot" else ("짧은 정리" if a["kind"] == "short" else "긴 정리"),
-                a["pid"], a["stage"], a["function"], a["regime"], a["korean"], a["title"], a["venue"], a["doi"], a["checker"],
-                None, None, None, None] for a in asg]
-table(ws, hdr, rows, [7, 11, 11, 9, 16, 7, 6, 6, 18, 6, 55, 26, 28, 12, 11, 9, 9, 30],
-      input_cols=("제출일", "접수", "짝점검", "반려사유"))
+      "10.38100/jhuf.2021.6.2.53", "받음", "O", "2026-10-27", "O", "O", "O", ""]
+rows = [ex] + [[a["week"], a["assign_date"], a["due_date"], a["person"], a["pid"], a["stage"], a["function"], a["regime"],
+                a["korean"], a["title"], a["venue"], a["doi"], a["pdf_status"], None, None, None, None, None, None] for a in asg]
+table(ws, hdr, rows, [7, 11, 11, 9, 7, 6, 6, 18, 6, 55, 26, 28, 18, 9, 11, 7, 7, 9, 30],
+      input_cols=("원문 배포", "제출일", "워드", "시트", "접수", "반려사유"))
 for j in range(1, len(hdr) + 1):
     ws.cell(row=2, column=j).fill = GRY
 ws.cell(row=2, column=1).comment = Comment("쓰는 법을 보여 주는 예시 행. 진행현황 계산에서는 빠진다.", "Claude")
 last = len(rows) + 1
 dv1 = DataValidation(type="list", formula1='"O,반려,미제출"', allow_blank=True)
-dv1.add(f"P3:P{last}")
-dv2 = DataValidation(type="list", formula1='"O,수정필요"', allow_blank=True)
-dv2.add(f"Q3:Q{last}")
+dv1.add(f"R3:R{last}")
+dv2 = DataValidation(type="list", formula1='"O,X"', allow_blank=True)
+for L in "NPQ":
+    dv2.add(f"{L}3:{L}{last}")
 ws.add_data_validation(dv1)
 ws.add_data_validation(dv2)
 
 # 4 진행현황
 ws = wb.create_sheet("진행현황")
 weeks = sorted({a["week"] for a in asg})
-head_row(ws, 1, ["주차", "배정", "제출", "통과(O)", "반려", "짝점검 완료", "통과율"])
+head_row(ws, 1, ["주차", "배정", "원문 배포", "제출", "통과(O)", "반려", "통과율"])
 R = f"주차별배정!$A$3:$A${last}"
 for i, wk in enumerate(weeks, 2):
     ws.cell(row=i, column=1, value=wk)
     ws.cell(row=i, column=2, value=f"=COUNTIF({R},A{i})")
-    ws.cell(row=i, column=3, value=f'=COUNTIFS({R},A{i},주차별배정!$O$3:$O${last},"<>")')
-    ws.cell(row=i, column=4, value=f'=COUNTIFS({R},A{i},주차별배정!$P$3:$P${last},"O")')
-    ws.cell(row=i, column=5, value=f'=COUNTIFS({R},A{i},주차별배정!$P$3:$P${last},"반려")')
-    ws.cell(row=i, column=6, value=f'=COUNTIFS({R},A{i},주차별배정!$Q$3:$Q${last},"<>")')
-    ws.cell(row=i, column=7, value=f'=IF(C{i}=0,"-",D{i}/C{i})').number_format = "0%"
+    ws.cell(row=i, column=3, value=f'=COUNTIFS({R},A{i},주차별배정!$N$3:$N${last},"O")')
+    ws.cell(row=i, column=4, value=f'=COUNTIFS({R},A{i},주차별배정!$O$3:$O${last},"<>")')
+    ws.cell(row=i, column=5, value=f'=COUNTIFS({R},A{i},주차별배정!$R$3:$R${last},"O")')
+    ws.cell(row=i, column=6, value=f'=COUNTIFS({R},A{i},주차별배정!$R$3:$R${last},"반려")')
+    ws.cell(row=i, column=7, value=f'=IF(D{i}=0,"-",E{i}/D{i})').number_format = "0%"
 t = len(weeks) + 2
 ws.cell(row=t, column=1, value="합계")
 for j, col in zip(range(2, 7), "BCDEF"):
     ws.cell(row=t, column=j, value=f"=SUM({col}2:{col}{t - 1})")
-ws.cell(row=t, column=7, value=f'=IF(C{t}=0,"-",D{t}/C{t})').number_format = "0%"
+ws.cell(row=t, column=7, value=f'=IF(D{t}=0,"-",E{t}/D{t})').number_format = "0%"
 boxed(ws, 2, t, 7, bold_rows=(t,))
-ws.cell(row=t + 2, column=1, value="배정·제출은 논문 편수로 센다(짧은 정리 4편 = 4건). W01 파일럿은 같은 논문을 8명이 정리하므로 8건. 예시 p115는 Claude가 정리했고 원석이 검증한다.").font = B
+ws.cell(row=t + 2, column=1, value="배정·제출은 논문 편수로 센다. 예시 p115·p033은 Claude가 정리했고 교수가 원문과 대조한다(배정 146편에서 빠짐).").font = B
 for j, w in enumerate([8, 8, 8, 9, 8, 12, 9], 1):
     ws.column_dimensions[get_column_letter(j)].width = w
 
@@ -221,10 +214,10 @@ for i, s in enumerate(stages, r0 + 1):
     ws.cell(row=i, column=1, value=s)
     for j in range(2, 6):
         L = get_column_letter(j)
-        ws.cell(row=i, column=j, value=f'=COUNTIFS(종합148!$I$2:$I${N},$A{i},종합148!$K$2:$K${N},{L}${r0}&"*")')
+        ws.cell(row=i, column=j, value=f'=COUNTIFS(종합148!$H$2:$H${N},$A{i},종합148!$J$2:$J${N},{L}${r0}&"*")')
     ws.cell(row=i, column=6, value=f"=SUM(B{i}:E{i})")
     for j, fc in zip((7, 8, 9), ("F1*", "F2*", "F3*")):
-        ws.cell(row=i, column=j, value=f'=COUNTIFS(종합148!$I$2:$I${N},$A{i},종합148!$J$2:$J${N},"{fc}")')
+        ws.cell(row=i, column=j, value=f'=COUNTIFS(종합148!$H$2:$H${N},$A{i},종합148!$I$2:$I${N},"{fc}")')
 tr = r0 + len(stages) + 1
 ws.cell(row=tr, column=1, value="합계")
 for j in range(2, 10):

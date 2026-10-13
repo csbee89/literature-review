@@ -10,3 +10,7 @@
 | 2026-10-13 | 최승비(지시) / Claude(실행) | Claude Code | Unpaywall로 오픈액세스 원문 15편 수집, 148편 원문 상태표, 정리 예시 p115 작성(원문 대조, 쪽수 인용), 배정표 v4(전원 주 1편·파일럿·한국 먼저), 담당자 엑셀 생성 | `papers/`, `examples/example_Ma2021_p115.md`, `students/assignments.csv`, `handover/` | 예시는 원석이 원문과 대조 검증 |
 | 2026-10-13 | 최승비(지시) / Claude(실행) | Claude Code | 원문 추가 수집(Semantic Scholar·OpenAlex 오픈액세스 위치, 출판사 PDF 메타태그, KCI 원문; DOI·제목 대조), Scopus·WoS 실행 안내와 가져오기 스크립트 작성(기관 인증이 없어 검색 자체는 미실행) | `papers/`(35편), `search/scopus_wos_guide.md`, `scripts/import_scopus_wos.py` | p018 오매칭 파일 제외, p010 제목 정정 |
 | 2026-10-13 | 최승비(결정) / Claude(실행) | Claude Code | 추출 깊이 차등(A안): F3 83편을 하나씩 보고 짧은 정리 48편 지정, 짧은 양식·예시 작성, 배정표 v5(1몫 = 완전 1 또는 짧은 4, 16주) | `review/synthesis_set.csv`(depth), `templates/short_form.md`, `examples/example_Ma2021_p115_short.md`, `students/assignments.csv`, 프로토콜 §8.1 | 지정 기준은 프로토콜 §8.1에 명시 |
+
+## 2026-10-13 · 운영 v11 (청년 리뷰 방식으로 통일)
+- Claude: 워드 1쪽 양식과 예시 2편(p115 국문, p033 영문 — 원문 PDF에서 직접 추출, 쪽수 표기), 구글시트 양식(예시 2행), 배정표 v7(파일럿 없음, 예시 제외 146편, 수–화 주기), 운영 문서·프로토콜 v0.7.3(독립 이중 추출) 작성.
+- 검증 필요: 연구책임자가 예시 2편을 원문과 대조(배정 제외 논문이므로 2차 추출 대신).
