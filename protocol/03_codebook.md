@@ -73,7 +73,7 @@
 
 | 열 | 정의 |
 |---|---|
-| `q1_definition` ... `q6_reproducibility` | 프로토콜 §9의 6항목, 각 0/1/2 |
+| `q1_definition` ... `q6_reproducibility` | 프로토콜 §9의 6항목, 각 0/1/2. 해당 없으면 `NA`(예: 거래량 같은 집계 지표의 q2 선택편의). 합계는 NA를 뺀 항목만 더하고 분모도 줄인다(예: 3/10). 상·중·하는 비율로 나눈다: 0.67 이상 상, 0.34–0.66 중, 0.33 이하 하 |
 | `limitations_author` | 저자 한계 절 요약 2문장 이내 |
 | `gap_axis` | 다섯 축 중 비어 있는 것: `data` / `region` / `period` / `group` / `mechanism` (복수 가능) |
 | `relevance_to_KR` | 한국 적용 함의 1문장 (비MLS·중복등재·재등록 관점) |

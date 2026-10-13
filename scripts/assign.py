@@ -1,60 +1,57 @@
 #!/usr/bin/env python3
-"""주차별 배정표 생성(v3, 2026-10-10). 사용: python3 scripts/assign.py [--grad 2] [--start 2026-10-19] --out students/assignments.csv
-종합 대상(scope=synthesis)만 배정한다. 전부 완전추출. 석·박사 1인 주 --grad 편, 학부 1편. 순서: 측정·정의(C1) 고전 → 연도순."""
+"""주차별 배정표 생성 (v4, 2026-10-13).
+사용: python3 scripts/assign.py [--start 2026-10-19] [--pilot p023] --out students/assignments.csv
+
+규칙
+- 전원 매주 1편(8명 → 주 8편). 종합 대상(scope=synthesis)만.
+- W01 = 파일럿: 8명 전원이 같은 논문(--pilot)을 정리 → 원석이 8개를 비교해 양식 해석 차이를 잡는다.
+- W02~ = 한국 논문 먼저(언어 부담 없음, KCI·RISS 무료 원문, RQ5 핵심) → 그다음 영문을 단계 순 S3→S2→S5→S4→S1.
+  같은 단계 안에서는 F1 정의·구축 → F2 측정 쟁점 → F3 선행성, 그 안에서 연도순.
+- 어려운 논문(경제학 상위 학술지·구조모형)은 그 주의 석·박사에게 먼저 배정.
+- 짝(checker)은 4주마다 바뀐다.
+- --done 의 논문(p115 = 정리 예시)은 배정하지 않는다."""
 import csv,argparse,re,datetime
-ap=argparse.ArgumentParser(); ap.add_argument("--option",type=int,default=3); ap.add_argument("--start",default="2026-10-19"); ap.add_argument("--out",required=True); ap.add_argument("--inc",default="review/included_studies.csv"); ap.add_argument("--grad",type=int,default=2,help="석·박사 1인 주당 완전추출 편수(기본 2)")
+ap=argparse.ArgumentParser()
+ap.add_argument("--start",default="2026-10-19"); ap.add_argument("--pilot",default="p023")
+ap.add_argument("--done",default="p115",help="이미 정리된 논문(예시 등), 쉼표 구분 — 배정에서 뺀다")
+ap.add_argument("--inc",default="review/synthesis_set.csv"); ap.add_argument("--out",required=True)
 a=ap.parse_args()
 rows=list(csv.DictReader(open(a.inc,encoding="utf-8")))
-measure=re.compile(r"measur|index|indices|censored|hazard|probability of (a )?sale|quick sale|relist|withdraw|distribution|competing|endogeneity|nonlinearity|simultaneous|spatiotemporal solution|inverted U|puzzle|seller motivation|seller heterogeneity|hot (and|or) cold|tightness|KR|Korea|Busan|Seoul|time to close|methodolog|estimating time|parametric|generalized geometric|joint model|optimal (TOM|time)|TOM indicators|duration of marketing|search benefit|price-TOM relation|market conditions, marketing time|credit conditions|thin market|TOM distribution|illiquidity|liquidity (and|&) (price|information)|residential liquidity|home liquidity|liquidity imbalance",re.I)
-def is_core3(r):
-    t=r["tier"]; txt=r["note"]+" "+r["title"]
-    if r["layer"]=="theory": return True
-    if r["layer"]=="peripheral": return False
-    if "C" in t or "D" in t: return True
-    if "B" in t: return not re.search(r"peripheral",r["note"])
-    return bool(measure.search(txt))
-rows=[r for r in rows if r.get("scope")=="synthesis"]
-for r in rows: r["workload"]="full"
-full=rows; light=[]
-# priority: anchors/resolver first, then earlier-known classics by citation proxy (year asc for classics), then rest by year desc
-prev=set()
-try:
-    for x in csv.DictReader(open("students/assignments.csv",encoding="utf-8")): prev.add(x["doi"].lower())
-except FileNotFoundError: pass
-def prio(r):
-    return (0 if r["criterion"].startswith("C1") else 1, str(r["year"]))
-full.sort(key=prio); light.sort(key=lambda r:str(r["year"]))
-pre_assigned=[]
-people=[("박사",a.grad,"T,C"),("석사①",a.grad,"C,B,D"),("석사②",a.grad,"B,D,C"),("학부①",1,"A"),("학부②",1,"A"),("학부③",1,"A"),("학부④",1,"A"),("이원석",1,"A,KR")]
-pairs={"박사":"석사①","석사①":"박사","석사②":"학부①","학부①":"석사②","학부②":"학부③","학부③":"학부②","학부④":"이원석","이원석":"학부④"}
-# distribute full by tier preference
-def pick(pool,pref):
-    for p in pref.split(","):
-        for i,r in enumerate(pool):
-            if p=="KR" and re.search(r"KR|Korea",r["note"]+r["venue"]): return pool.pop(i)
-            if p!="KR" and p in r["tier"]: return pool.pop(i)
-    return pool.pop(0) if pool else None
-out=[]; start=datetime.date.fromisoformat(a.start); wk=1
-pool=list(full)
-pending={p:[r for q,r in pre_assigned if q==p] for p,_,_ in people}
-while pool or any(pending.values()):
-    d0=start+datetime.timedelta(weeks=wk-1); d1=d0+datetime.timedelta(days=4)
-    for name,n,pref in people:
-        for k in range(n):
-            r=pending[name].pop(0) if pending[name] else pick(pool,pref)
-            if not r: break
-            out.append(dict(week=f"W{wk:02d}",assign_date=d0.isoformat(),due_date=d1.isoformat(),person=name,workload="full",pid=r.get("pid",""),stage=r.get("stage","")[:2],function=r.get("function","")[:2],regime=r.get("regime",""),layer=r["layer"],tier=r["tier"],first_author=(r["authors"].split(";")[0].split(",")[0] if r["authors"] else ""),year=r["year"],title=r["title"],venue=r["venue"],doi=r["doi"],status=r["status"],note=r["note"],checker=pairs[name]))
+def is_kr(r): return bool(re.search(r"KR|Korea",r["note"]+r["venue"]) or re.search(r"[가-힣]",r["venue"]+r["title"]))
+HARD=re.compile(r"American Economic Review|Journal of Political Economy|Review of Economic Studies|Quarterly Journal|Econometrica|Journal of Finance|Review of Financial|International Economic Review|RAND Journal|Review of Economics and Statistics|Journal of Urban Economics|Journal of Monetary|Economic Theory",re.I)
+def hard(r): return bool(HARD.search(r["venue"]))
+STAGE_ORDER={"S3":0,"S2":1,"S5":2,"S4":3,"S1":4}
+pilot=[r for r in rows if r["pid"]==a.pilot][0]
+DONE=set(x for x in a.done.split(",") if x)
+rest=[r for r in rows if r["pid"]!=a.pilot and r["pid"] not in DONE]
+kr=sorted([r for r in rest if is_kr(r)],key=lambda r:(r["stage"][:2],r["function"][:2],r["year"]))
+en=sorted([r for r in rest if not is_kr(r)],key=lambda r:(STAGE_ORDER[r["stage"][:2]],r["function"][:2],r["year"]))
+queue=kr+en
+people=["박사","석사①","석사②","학부①","학부②","학부③","학부④","이원석"]
+GRAD={"박사","석사①","석사②"}
+rot=[["석사①","박사","학부①","석사②","학부③","학부②","이원석","학부④"],   # 각 사람의 짝 (4주마다 순환)
+     ["학부①","학부②","박사","학부③","석사①","이원석","석사②","학부④"],
+     ["석사②","학부③","박사","학부④","이원석","석사①","학부①","학부②"]]
+def checker(i,wk):
+    pairs=rot[((wk-1)//4)%len(rot)]
+    c=pairs[i]
+    return c if c!=people[i] else people[(i+1)%8]
+start=datetime.date.fromisoformat(a.start); out=[]
+def rec(wk,person,r,i,kind):
+    d0=start+datetime.timedelta(weeks=wk-1)
+    return dict(week=f"W{wk:02d}",assign_date=d0.isoformat(),due_date=(d0+datetime.timedelta(days=4)).isoformat(),person=person,kind=kind,
+        pid=r["pid"],stage=r["stage"][:2],function=r["function"][:2],regime=r["regime"],korean="Y" if is_kr(r) else "",
+        year=r["year"],title=r["title"],venue=r["venue"],doi=r["doi"],tier=r["tier"],status=r["status"],checker=checker(i,wk) if kind!="pilot" else "전원 비교(원석)")
+for i,p in enumerate(people): out.append(rec(1,p,pilot,i,"pilot"))
+wk=2
+while queue:
+    batch=queue[:8]; queue=queue[8:]
+    hardp=[r for r in batch if hard(r)]; easy=[r for r in batch if not hard(r)]
+    order=[p for p in people if p in GRAD]+[p for p in people if p not in GRAD]
+    picks=hardp+easy
+    for p,r in zip(order,picks): out.append(rec(wk,p,r,people.index(p),"full"))
     wk+=1
-full_weeks=wk-1
-lp=list(light); wk=1
-while lp:
-    d0=start+datetime.timedelta(weeks=wk-1); d1=d0+datetime.timedelta(days=4)
-    for name,n,pref in people:
-        if not lp: break
-        r=lp.pop(0)
-        out.append(dict(week=f"W{wk:02d}",assign_date=d0.isoformat(),due_date=d1.isoformat(),person=name,workload="light",layer=r["layer"],tier=r["tier"],first_author=(r["authors"].split(";")[0].split(",")[0] if r["authors"] else ""),year=r["year"],title=r["title"],venue=r["venue"],doi=r["doi"],status=r["status"],note=r["note"],checker=pairs[name]))
-    wk+=1
-out.sort(key=lambda x:(x["week"],x["workload"]!="full",x["person"]))
-with open(a.out,"w",encoding="utf-8",newline="") as f:
-    w=csv.DictWriter(f,fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
-print(f"synthesis={len(out)} | weeks={full_weeks} | end {start+datetime.timedelta(weeks=full_weeks-1,days=4)}")
+out.sort(key=lambda x:(x["week"],people.index(x["person"])))
+w=csv.DictWriter(open(a.out,"w",encoding="utf-8",newline=""),fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
+last=max(x["due_date"] for x in out)
+print(f"pilot={a.pilot} | weeks={wk-1} | papers={len({x['pid'] for x in out})} | korean weeks W02-W{1+ (len(kr)+7)//8:02d} | end {last}")
