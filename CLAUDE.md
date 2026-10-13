@@ -14,7 +14,8 @@
 1. [x] 연구책임자: 148편 승인(2026-10-11, 전부 O).
 2. [x] 분류 틀 확정, 코드북 §G, 배정표에 단계·기능·환경 코드 반영.
 3. [x] 프로토콜 동결(2026-10-13, `protocol/FREEZE.md`). OSF 등록은 **선택**(연구책임자 판단 보류): 하지 않으면 PRISMA 항목 24에 미등록 + 저장소 동결 일자로 기재, 프로토콜은 부록 S1로 제출. 하려면 `osf/README.md`.
-4. [ ] 연구책임자: 배정표 실명, Scopus·WoS 접속 확인, KCI 키. **첫 회의 10/19(월)부터 리뷰 시작.**
+4. [ ] 연구책임자: 배정표 실명. **첫 회의 10/19(월)부터 리뷰 시작.**
+4a. [ ] **원석: Scopus·WoS 보완 검색** — Claude는 기관 인증이 없어 직접 못 함(API 401 확인, 2026-10-13). 원석이 학교 계정으로 `search/scopus_wos_guide.md`의 식 6개를 붙여 넣고 내보내 `search/supp/`에 올리면 Claude가 `scripts/import_scopus_wos.py`로 중복 제거·규칙 선별·판독.
 4b. [ ] 원석(10/13~16): 파일럿 p023 원문 KCI에서 받아 배포(안 되면 `--pilot p025`), W2·W3 한국 16편 원문, 예시 p115 원문 대조 검증, Zotero 148편.
 5. [ ] 원석·석사①: 인간 재판독(무작위 140 + I? 47 + 1차 E2·E3 142) — 리뷰 시작과 병행 가능.
 
@@ -25,6 +26,7 @@
 
 ## 파일 지도
 - `protocol/` 프로토콜(v0.7, 동결 기록 FREEZE.md)·검색식·코드북·저널 비교·JHE 제약표
+- `search/scopus_wos_guide.md` Scopus·WoS 실행 안내(붙여 넣을 식, 내보내기 방법), `scripts/import_scopus_wos.py` 가져오기·중복 제거
 - `osf/` OSF 사전등록 묶음(README 7단계, preregistration.md, 148편 CSV)
 - `review/` 포함 목록(438, scope·stage·function·regime 열), 종합 목록 `synthesis_set.md/.csv`(승인 완료), 분류 틀 대안 비교 `framework_alternatives.md`, 판독 로그(844 + OpenAlex 556), 전체 레코드, PRISMA 수치, 선별 규칙, 선행 리뷰
 - `scripts/` 검색(s2/cr/hand/snowball/oa_search) → 병합 → 규칙선별 → 게재본 확인 → 편집(compile) → 배정(assign `[--grad N]`)
