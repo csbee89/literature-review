@@ -13,8 +13,8 @@
 ## 리뷰 시작 전 반드시 끝낼 것 (순서대로)
 1. [x] 연구책임자: 148편 승인(2026-10-11, 전부 O).
 2. [x] 분류 틀 확정, 코드북 §G, 배정표에 단계·기능·환경 코드 반영.
-3. [ ] **연구책임자**: OSF 사전등록 — `osf/README.md`의 7단계(15분). 끝나면 OSF 번호를 Claude에게 → 프로토콜 §1·논문 방법 절에 기입.
-4. [ ] 연구책임자: 배정표 실명, Scopus·WoS 접속 확인, KCI 키. 첫 회의는 1~3 완료 후(목표 10/19 월).
+3. [x] 프로토콜 동결(2026-10-13, `protocol/FREEZE.md`). OSF 등록은 **선택**(연구책임자 판단 보류): 하지 않으면 PRISMA 항목 24에 미등록 + 저장소 동결 일자로 기재, 프로토콜은 부록 S1로 제출. 하려면 `osf/README.md`.
+4. [ ] 연구책임자: 배정표 실명, Scopus·WoS 접속 확인, KCI 키. **첫 회의 10/19(월)부터 리뷰 시작 가능.**
 5. [ ] 원석·석사①: 인간 재판독(무작위 140 + I? 47 + 1차 E2·E3 142) — 리뷰 시작과 병행 가능.
 
 ## 연구책임자가 위임해 Claude가 내린 결정
@@ -23,11 +23,11 @@
 - v0.5의 옵션1/3·경량추출 체계는 폐기(기준 불일치의 산물).
 
 ## 파일 지도
-- `protocol/` 프로토콜(v0.6)·검색식·코드북·저널 비교·JHE 제약표
+- `protocol/` 프로토콜(v0.7, 동결 기록 FREEZE.md)·검색식·코드북·저널 비교·JHE 제약표
 - `osf/` OSF 사전등록 묶음(README 7단계, preregistration.md, 148편 CSV)
 - `review/` 포함 목록(438, scope·stage·function·regime 열), 종합 목록 `synthesis_set.md/.csv`(승인 완료), 분류 틀 대안 비교 `framework_alternatives.md`, 판독 로그(844 + OpenAlex 556), 전체 레코드, PRISMA 수치, 선별 규칙, 선행 리뷰
 - `scripts/` 검색(s2/cr/hand/snowball/oa_search) → 병합 → 규칙선별 → 게재본 확인 → 편집(compile) → 배정(assign `[--grad N]`)
-- `students/` 운영 계획(v6), 배정표, 주간 보고 양식, AI 사용 기록
+- `students/` 운영 계획(v7), 배정표, 주간 보고 양식, AI 사용 기록
 - `examples/` 정리 수준 기준 예시 · `templates/` 추출 CSV, 1쪽 양식, 선별·검색 로그
 
 ## 규칙
