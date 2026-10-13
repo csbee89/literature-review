@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""주차별 배정표 생성 (v6, 2026-10-13 — 깊이 차등 + 주차별 몫 수).
+"""주차별 배정표 생성 (v6, 2026-10-13 — 깊이 차등 + 주차별 과제 수).
 사용: python3 scripts/assign.py [--start 2026-10-19] [--pilot p023] [--ramp 1x5,2] --out students/assignments.csv
-     (--ramp 1x5,3 이면 W6부터 1인 3몫)
+     (--ramp 1x5,3 이면 W6부터 1인 과제 3개)
 
 규칙
-- 종합 대상(scope=synthesis)만. 한 사람의 한 주 몫 수는 --ramp: 기본 '1x5,2' = W1~W5는 1몫, W6부터 2몫.
+- 종합 대상(scope=synthesis)만. 한 사람의 한 주 과제 수는 --ramp: 기본 '1x5,2' = W1~W5는 과제 1개, W6부터 과제 2개.
 - W01 = 파일럿: 8명 전원이 같은 논문(--pilot)을 정리 → 원석이 8개를 비교해 양식 해석 차이를 잡는다.
 - W02~ = 한국 논문 먼저(언어 부담 없음, KCI·RISS 무료 원문, RQ5 핵심) → 그다음 영문을 단계 순 S3→S2→S5→S4→S1.
   같은 단계 안에서는 F1 정의·구축 → F2 측정 쟁점 → F3 선행성, 그 안에서 연도순.
@@ -12,13 +12,13 @@
 - 짝(checker)은 4주마다 바뀐다.
 - --done 의 논문(p115 = 정리 예시)은 배정하지 않는다.
 - 추출 깊이(synthesis_set.csv의 depth): full = 1쪽 양식(2시간), short = 짧은 양식(30분).
-  몫(slot) 하나 = full 1편 또는 short 4편(단계 순서대로 4편씩 꽉 채움, 한국·영문은 따로)."""
+  과제(slot) 하나 = full 1편 또는 short 4편(단계 순서대로 4편씩 꽉 채움, 한국·영문은 따로)."""
 import csv,argparse,re,datetime
 ap=argparse.ArgumentParser()
 ap.add_argument("--start",default="2026-10-19"); ap.add_argument("--pilot",default="p023")
 ap.add_argument("--done",default="p115",help="이미 정리된 논문(예시 등), 쉼표 구분 — 배정에서 뺀다")
 ap.add_argument("--inc",default="review/synthesis_set.csv"); ap.add_argument("--out",required=True)
-ap.add_argument("--ramp",default="1x5,2",help="주차별 1인 몫 수. 예: 1x5,2 = 처음 5주 1몫, 이후 2몫")
+ap.add_argument("--ramp",default="1x5,2",help="주차별 1인 과제 수 수. 예: 1x5,2 = 처음 5주 과제 1개, 이후 과제 2개")
 a=ap.parse_args()
 rows=list(csv.DictReader(open(a.inc,encoding="utf-8")))
 def is_kr(r): return bool(re.search(r"KR|Korea",r["note"]+r["venue"]) or re.search(r"[가-힣]",r["venue"]+r["title"]))

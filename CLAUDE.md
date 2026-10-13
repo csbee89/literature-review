@@ -8,7 +8,7 @@
 2. 검색·선별: 5경로 52,006건 → 37,104건 중복 제거 → 1,400건 판독 → 제목·초록 통과 438편 → **§4.4 적용: 종합 148편** / 배경 37 / 증거지도 253 (`review/included_studies.csv`의 `scope` 열, 수치 `review/prisma_flow.md` §3b).
 3. 종합 148편 = A 37 · B 27 · C 68 · D 16, 한국 관련 28. **연구책임자 승인 완료(2026-10-11, O/X 페이지 전부 O)**. 목록 `review/synthesis_set.md`·`.csv`.
 3b. **분류 틀 확정(§3.1)**: 주축 = 거래 사슬 단계 S1 수요·관심 25 / S2 공급·호가 16 / S3 매칭 39 / S4 체결 52 / S5 집계 상태 16; 부축 = 기능 F1 정의·구축 39 / F2 측정 쟁점 26 / F3 선행성·관계 83; 교차 = 제도환경 MLS 53 / 비MLS 87 / 경매 4 / 복수 4. 대안 비교 `review/framework_alternatives.md`. 초기 코드는 `synthesis_set.csv`, 학생이 추출 시 확인.
-4. **운영(v10, 연구책임자 결정 10/13): W1~W5 1인 1몫, W6부터 1인 2몫. 추출 깊이 차등(프로토콜 §8.1, A안).** 1몫 = 완전 정리 1편 또는 짧은 정리 4편(단계 순 4편씩 꽉 채움, 총 111몫). 완전 100편 + 짧은 48편(F3 중 표준 시계열 연관 연구, `synthesis_set.csv`의 `depth`). W1 파일럿(p023) → W2~W3 한국 26편 → W3~W10 영문, 단계 순 S3→S2→S5→S4→S1. 2026-10-19 시작, 2026-12-25 종료(10주). `scripts/assign.py --ramp 1x5,2`(3몫이면 `1x5,3`, 9주). 짧은 양식 `templates/short_form.md`, 예시 `examples/example_Ma2021_p115_short.md`. p115는 Claude가 정리 예시로 완료(`examples/example_Ma2021_p115.md`, 원석 검증). 배정표 `students/assignments.csv`(`scripts/assign.py` v6). 담당자 엑셀 `handover/유동성리뷰_담당자파일.xlsx`(`scripts/build_handover_xlsx.py`로 재생성 후 recalc). 원문 `papers/` 35편(오픈액세스·저자 공개본·KCI, 첫 쪽 제목 대조) + 상태표 `papers/pdf_status.csv`(나머지 113편 받는 법). 유료 85편은 학교 도서관 필요.
+4. **운영(v10, 연구책임자 결정 10/13): W1~W5 1인 과제 1개, W6부터 1인 과제 2개. 추출 깊이 차등(프로토콜 §8.1, A안).** 과제 1개 = 긴 정리 1편 또는 짧은 정리 4편(단계 순 4편씩 꽉 채움, 총 과제 111개). 긴 100편 + 짧은 48편(F3 중 표준 시계열 연관 연구, `synthesis_set.csv`의 `depth`). W1 파일럿(p023) → W2~W3 한국 26편 → W3~W10 영문, 단계 순 S3→S2→S5→S4→S1. 2026-10-19 시작, 2026-12-25 종료(10주). `scripts/assign.py --ramp 1x5,2`(과제 3개면 `1x5,3`, 9주). 짧은 양식 `templates/short_form.md`, 예시 `examples/example_Ma2021_p115_short.md`. p115는 Claude가 정리 예시로 완료(`examples/example_Ma2021_p115.md`, 원석 검증). 배정표 `students/assignments.csv`(`scripts/assign.py` v6). 담당자 엑셀 `handover/유동성리뷰_담당자파일.xlsx`(`scripts/build_handover_xlsx.py`로 재생성 후 recalc). 원문 `papers/` 35편(오픈액세스·저자 공개본·KCI, 첫 쪽 제목 대조) + 상태표 `papers/pdf_status.csv`(나머지 113편 받는 법). 유료 85편은 학교 도서관 필요.
 
 ## 리뷰 시작 전 반드시 끝낼 것 (순서대로)
 1. [x] 연구책임자: 148편 승인(2026-10-11, 전부 O).
@@ -33,8 +33,8 @@
 - `scripts/` 검색(s2/cr/hand/snowball/oa_search) → 병합 → 규칙선별 → 게재본 확인 → 편집(compile) → 배정(assign `[--grad N]`)
 - `handover/` 담당자 엑셀(7개 시트: 안내·종합148·주차별배정·진행현황·분류틀·선별과정·전체438)
 - `papers/` 원문 35편 + `pdf_status.csv`(148편 원문 받는 법)
-- `students/` 운영 계획(v10), 배정표, 주간 보고 양식, AI 사용 기록
-- `examples/` 정리 예시: 한국 논문 p115(마승렬 2021) 완전·짧은 두 버전, 영문 Famiglietti 2020 · `templates/` 추출 CSV, 1쪽 양식, 선별·검색 로그
+- `students/` 운영 계획(v10), 학생용 정리 안내 `how_to_summarize.md`, 배정표, 주간 보고 양식, AI 사용 기록
+- `examples/` 정리 예시: 한국 논문 p115(마승렬 2021) 긴·짧은 두 버전, 영문 Famiglietti 2020 · `templates/` 추출 CSV, 1쪽 양식, 선별·검색 로그
 
 ## 규칙
 원문에 없는 것은 쓰지 않는다(`NR`). 인용은 DOI로 실존 확인. 지표마다 1행. AI 사용은 `students/ai_use_log.md`에 기록(JHE 선언 요건). API 키·비밀은 커밋하지 않는다.
