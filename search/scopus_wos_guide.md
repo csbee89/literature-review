@@ -1,6 +1,6 @@
-# Scopus·Web of Science 보완 검색 — 원석이 실행 안내 (약 1시간)
+# Scopus·Web of Science 보완 검색 — 실행 안내 (교수 직접, 약 1시간)
 
-Scopus와 WoS는 가천대 구독 DB라 **학교 계정으로 로그인한 사람만** 검색할 수 있다. Claude는 로그인할 수 없으므로, 원석이가 아래 식을 붙여 넣고 결과 파일을 내보내 저장소에 올리면 나머지(기존 37,104건과 중복 제거, 규칙 선별, 판독, PRISMA 숫자 갱신)는 Claude가 한다.
+Scopus와 WoS는 가천대 구독 DB라 **학교 계정으로 로그인한 사람만** 검색할 수 있다. Claude는 로그인할 수 없으므로, 교수가 아래 식을 붙여 넣고 결과 파일을 내보내 저장소에 올리면 나머지(기존 37,104건과 중복 제거, 규칙 선별, 판독, PRISMA 숫자 갱신)는 Claude가 한다.
 
 ## 0. 준비
 - 학교 밖이면 가천대 도서관 홈페이지 로그인 → 학술DB → Scopus / Web of Science 로 들어간다(교내 IP로 연결됨).
@@ -53,7 +53,7 @@ TS=(("housing market liquidity" OR "housing liquidity" OR "real estate liquidity
 파일 이름: `search/supp/wos_W1_1.txt`, `wos_W1_2.txt` …
 
 ## 3. 올리고 Claude에게 알리기
-1. 파일을 `search/supp/`에 넣고 커밋·푸시하거나, 교수님께 파일을 보내 Claude 대화창에 첨부한다.
+1. 파일을 Claude 대화창에 첨부한다(또는 `search/supp/`에 넣고 커밋·푸시).
 2. Claude가 다음을 실행한다.
 ```
 python3 scripts/import_scopus_wos.py search/supp/* --out review/supp_scopus_wos_new.csv
