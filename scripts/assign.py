@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""주차별 배정표 생성 (v7, 2026-10-13 — 청년 주거경로 리뷰와 같은 방식).
-사용: python3 scripts/assign.py [--meet 2026-10-28] [--w1 2026-10-19] [--ramp 1x5,2] --out students/assignments.csv
+"""주차별 배정표 생성 (v8, 2026-10-21 — 청년 주거경로 리뷰와 같은 방식).
+사용: python3 scripts/assign.py [--meet 2026-10-28] [--w1 2026-10-19] [--ramp 1x5,2] [--defer-missing] --out students/assignments.csv
      (--ramp 1x5,3 이면 W6부터 1인 3편)
 
 규칙
@@ -9,6 +9,8 @@
   W1~W5는 같은 8명이 청년 주거경로 리뷰(10/21~11/24, 주 1편)를 함께 하는 기간이다.
 - 매주 수요일 모임. 모임에서 다음 논문 배정, 모임 전날(화) 18:00 마감(청년 리뷰와 같은 요일).
   W1만 모임 전에 미리 배포(--w1, 기본 10/19 월) → 첫 모임 10/28(수).
+- --defer-missing: 원문이 아직 없거나 게재본이 아닌 논문(pdf_status != '받음')은 순서에서 빼서
+  맨 마지막 주에 따로 모은다(원문 확보 후 배포, 끝내 못 구하면 그 주만 비운다). v8, 연구책임자 지시 10/21.
 - 파일럿 없음. 정리 예시(--examples, 기본 p115·p033)는 배정하지 않는다.
 - 한국 논문 먼저(언어 부담 없음, RQ5 핵심) → 영문을 단계 순 S3→S2→S5→S4→S1.
   같은 단계 안에서는 F1 → F2 → F3, 그 안에서 연도순.
@@ -24,6 +26,7 @@ ap.add_argument("--examples", default="p115,p033", help="정리 예시로 쓰는
 ap.add_argument("--inc", default="review/synthesis_set.csv")
 ap.add_argument("--pdf", default="papers/pdf_status.csv")
 ap.add_argument("--out", required=True)
+ap.add_argument("--defer-missing", action="store_true", help="원문 없는 논문을 마지막 주로")
 ap.add_argument("--ramp", default="1x5,2", help="1인 주당 편수. 1x5,2 = 처음 5주 1편, 이후 2편")
 a = ap.parse_args()
 
@@ -43,6 +46,8 @@ EX = set(x for x in a.examples.split(",") if x)
 rest = [r for r in rows if r["pid"] not in EX]
 okey = lambda r: (STAGE_ORDER[r["stage"][:2]], r["function"][:2], r["year"])
 queue = sorted([r for r in rest if is_kr(r)], key=okey) + sorted([r for r in rest if not is_kr(r)], key=okey)
+held = [r for r in queue if a.defer_missing and pdf.get(r["pid"]) != "받음"]
+queue = [r for r in queue if r not in held]
 
 # 직급: 전우성(박사) · 손수연·최찬미(석사) · 이원석·이다윤(학부 3) · 오건·이지은·홍다연(학부 2)
 people = ["전우성", "손수연", "최찬미", "이원석", "이다윤", "오건", "이지은", "홍다연"]
@@ -67,9 +72,12 @@ w1 = datetime.date.fromisoformat(a.w1)
 out = []
 wk = 1
 order = [p for p in people if p in GRAD] + [p for p in people if p not in GRAD]
-while queue:
+while queue or held:
     k = per_person(wk)
-    batch, queue = queue[:8 * k], queue[8 * k:]
+    if queue:
+        batch, queue = queue[:8 * k], queue[8 * k:]
+    else:  # 원문 대기 논문만 모은 마지막 주
+        batch, held = held, []
     batch = [r for r in batch if HARD.search(r["venue"])] + [r for r in batch if not HARD.search(r["venue"])]
     meet = meet0 + datetime.timedelta(weeks=wk - 1)
     d0 = w1 if wk == 1 else meet - datetime.timedelta(days=7)
