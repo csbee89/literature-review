@@ -34,7 +34,7 @@
 - `osf/` OSF 사전등록 묶음(README 7단계, preregistration.md, 148편 CSV)
 - `review/` 포함 목록(438, scope·stage·function·regime 열), 종합 목록 `synthesis_set.md/.csv`(승인 완료), 분류 틀 대안 비교 `framework_alternatives.md`, 판독 로그(844 + OpenAlex 556), 전체 레코드, PRISMA 수치, 선별 규칙, 선행 리뷰
 - `scripts/` 검색(s2/cr/hand/snowball/oa_search) → 병합 → 규칙선별 → 게재본 확인 → 편집(compile) → 배정(assign `[--grad N]`)
-- `handover/` 담당자 엑셀(7개 시트: 안내·종합148·주차별배정·진행현황·분류틀·선별과정·전체438)
+- `handover/` 담당자 엑셀(7개 시트: 안내·종합148·주차별배정·진행현황·분류틀·선별과정·전체438) · 학생 설명 슬라이드 `handover/선정과정_설명.pptx`(PRISMA 흐름·제외 사유·§4.4 기준·148편 분류·일정 6장, `scripts/make_selection_deck.js`, NODE_PATH=/opt/node22/lib/node_modules)
 - `papers/` 원문 35편 + `pdf_status.csv`(148편 원문 받는 법)
 - `students/` 운영 계획(v11), 학생용 정리 안내 `how_to_summarize.md`, 배정표, 주간 보고 양식, AI 사용 기록
 - `handover/word/` 워드 양식·예시(p115 한국, p033 영문) · `handover/유동성리뷰_추출시트_양식.xlsx` 구글시트 양식 · `examples/`·`templates/` 이전 md 양식(v10까지, 참고용), 추출 CSV(코드북 열)
